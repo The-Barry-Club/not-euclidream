@@ -1,0 +1,600 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1642867068646999, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867068648175, "dur": 23004, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867068671403, "dur": 34673, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867068706101, "dur": 281895, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867068987998, "dur": 6702897, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867075690915, "dur": 17554, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867079416394, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867079416700, "dur": 14553, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867079431254, "dur": 47513, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867079478787, "dur": 224760, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867079703550, "dur": 437465, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867080141016, "dur": 9494, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867425240679, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867425240700, "dur": 26744, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867425267449, "dur": 31980, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867425299432, "dur": 297083, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867425596518, "dur": 6740226, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867432336746, "dur": 13155, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867435936914, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867435936943, "dur": 12530, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867435949478, "dur": 31925, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867435981405, "dur": 249620, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867436231028, "dur": 439422, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867436670452, "dur": 13154, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867535252509, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867535252535, "dur": 27639, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867535280177, "dur": 32045, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867535312224, "dur": 302828, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867535615054, "dur": 9861788, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867545476845, "dur": 24972, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867550991492, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867550991504, "dur": 6001, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867550997510, "dur": 47320, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867551044832, "dur": 271116, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867551315950, "dur": 496217, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867551812169, "dur": 13496, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867551826350, "dur": 347, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1642867551159402, "dur": 142662, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1642867551160699, "dur": 59468, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1642867551278385, "dur": 7548, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1642867551285938, "dur": 16117, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1642867551287007, "dur": 12413, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1642867551307477, "dur": 1659, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1642867551306561, "dur": 2601, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867551826814, "dur": 288, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1642867551355853, "dur":1188, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642867551357045, "dur":58, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1642867551357141, "dur":13, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1642867551357155, "dur":517, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1642867551357707, "dur":1755, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642867551359463, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642867551767708, "dur":214, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642867551767922, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642867551767934, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642867551767937, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642867551767946, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642867551767948, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642867551767955, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642867551767957, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642867551767964, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642867551767966, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642867551767972, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642867551767974, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642867551767987, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642867551767989, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642867551767996, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642867551767998, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642867551768004, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642867551768022, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642867551768041, "dur":2200, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1642867551358007, "dur":1568, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642867551359576, "dur":5460, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642867551365036, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1642867551365130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642867551368198, "dur":3356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1642867551371602, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1642867551371654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642867551371660, "dur":3224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1642867551374954, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1642867551375022, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642867551375030, "dur":16225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1642867551391316, "dur":3332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream.exe" }}
+,{ "pid":12345, "tid":1, "ts":1642867551394652, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642867551394659, "dur":26133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream.exe" }}
+,{ "pid":12345, "tid":1, "ts":1642867551420857, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642867551421133, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642867551421142, "dur":31403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642867551452615, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642867551452828, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642867551452836, "dur":1817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642867551454703, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642867551454891, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642867551454897, "dur":13909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642867551468872, "dur":1571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642867551470524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642867551470534, "dur":12676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642867551483279, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642867551483514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642867551483525, "dur":17381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642867551500975, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642867551501290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642867551501299, "dur":14761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642867551516134, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642867551516377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642867551516386, "dur":30000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642867551546448, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642867551546662, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642867551546670, "dur":3470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642867551550203, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642867551550412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642867551560311, "dur":3509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642867551563954, "dur":392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642867551564350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642867551564360, "dur":12134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642867551576574, "dur":813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642867551577390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642867551577399, "dur":15475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642867551592939, "dur":1182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642867551594124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642867551594130, "dur":34513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642867551628713, "dur":720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642867551629438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642867551629451, "dur":10365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642867551639889, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642867551640182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642867551640188, "dur":15729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642867551656064, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642867551656338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642867551656347, "dur":15268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642867551671681, "dur":3703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642867551685358, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642867551685369, "dur":48932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1642867551734339, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1642867551734374, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1642867551734380, "dur":15342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1642867551749787, "dur":17906, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642867551357827, "dur":1670, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642867551359499, "dur":5474, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642867551364984, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1642867551364988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642867551366640, "dur":919, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1642867551367562, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1642867551367622, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642867551367926, "dur":2564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1642867551370492, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1642867551370714, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642867551370788, "dur":4125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1642867551374991, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1642867551375059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642867551375067, "dur":16455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1642867551391582, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1642867551391648, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642867551392155, "dur":76029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1642867551468251, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642867551468515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642867551468526, "dur":2037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642867551470628, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642867551470865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642867551470871, "dur":2589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642867551473527, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642867551474243, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642867551474252, "dur":24963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642867551499282, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642867551499943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642867551499954, "dur":14692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642867551514727, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642867551515047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642867551515055, "dur":31086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642867551546198, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642867551546435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642867551546443, "dur":3031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642867551549518, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642867551549705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642867551549714, "dur":12116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642867551561931, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642867551562329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642867551562350, "dur":14314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642867551576729, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1642867551577029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642867551577035, "dur":15068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1642867551592194, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642867551592451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642867551592459, "dur":16529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642867551609065, "dur":403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642867551609472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642867551609481, "dur":16552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642867551626115, "dur":3617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642867551629736, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642867551629747, "dur":41275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642867551671134, "dur":560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642867551671698, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642867551671709, "dur":30957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":2, "ts":1642867551702732, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1642867551702798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642867551702807, "dur":1993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1642867551704855, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1642867551704910, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1642867551704917, "dur":43993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1642867551749060, "dur":18670, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642867551357951, "dur":1585, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642867551359537, "dur":5497, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642867551365035, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1642867551365265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642867551368391, "dur":3276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1642867551371710, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1642867551372785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642867551373017, "dur":17582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1642867551390668, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551390907, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642867551390916, "dur":3086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551394045, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551394229, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642867551403932, "dur":1806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551405808, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551406001, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642867551406007, "dur":30448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551436500, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551436703, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642867551436711, "dur":16838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551453715, "dur":694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551454417, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642867551454433, "dur":2653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551457157, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551457444, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642867551457455, "dur":12361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551469880, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551470132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642867551470142, "dur":2771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551472994, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551473255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642867551473264, "dur":25224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551498596, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551498838, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642867551498850, "dur":2082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551500998, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551501337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642867551501345, "dur":14831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551516267, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551516494, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642867551516501, "dur":30038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551546597, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551547005, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642867551547016, "dur":3216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551550323, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551560311, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642867551560326, "dur":2102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551562488, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551562758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642867551562766, "dur":2042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551564885, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1642867551565192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642867551565201, "dur":12107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1642867551577371, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1642867551577736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642867551577741, "dur":14909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1642867551592717, "dur":534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551593255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642867551593264, "dur":15712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551609150, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551609472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642867551609481, "dur":15580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551625237, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551625584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642867551625596, "dur":3775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551629446, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1642867551629733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642867551629743, "dur":9908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1642867551639725, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1642867551640037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642867551640046, "dur":15528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1642867551655659, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551655985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642867551655995, "dur":15037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551671172, "dur":1053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551685280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642867551685289, "dur":19490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1642867551704841, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1642867551704930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642867551704937, "dur":12616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1642867551717603, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1642867551717660, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642867551717669, "dur":31247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1642867551748998, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1642867551749070, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1642867551749079, "dur":2398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1642867551751514, "dur":16218, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642867551358141, "dur":1475, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642867551359616, "dur":5396, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642867551365013, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1642867551365235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642867551367751, "dur":5281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1642867551373100, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1642867551373172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642867551373257, "dur":16839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1642867551390158, "dur":8019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642867551404591, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642867551404698, "dur":65384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642867551470142, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642867551470382, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642867551470390, "dur":2873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642867551473342, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642867551473540, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642867551473546, "dur":25609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642867551499224, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642867551499952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642867551499961, "dur":14476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642867551514502, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642867551514851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642867551514860, "dur":31210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642867551546110, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642867551546284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642867551546292, "dur":3116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642867551549467, "dur":1391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642867551560379, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642867551560392, "dur":15638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642867551576098, "dur":512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642867551576615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642867551576626, "dur":2525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642867551579199, "dur":418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642867551591635, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642867551591658, "dur":17320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642867551609038, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642867551609418, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642867551609431, "dur":14026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642867551623522, "dur":3549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642867551627076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642867551627086, "dur":75473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642867551702624, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642867551702847, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642867551702854, "dur":2145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1642867551705042, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1642867551705237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642867551705244, "dur":2112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1642867551707419, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1642867551707492, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642867551707498, "dur":41406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1642867551749001, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1642867551749230, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1642867551749238, "dur":2113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1642867551751390, "dur":16302, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642867551358274, "dur":1391, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642867551359665, "dur":5315, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642867551364984, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1642867551365245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642867551368217, "dur":3302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1642867551371594, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1642867551371845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642867551372771, "dur":18197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1642867551391039, "dur":1639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1642867551392682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642867551392688, "dur":13794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1642867551406522, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642867551406671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642867551406677, "dur":29734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642867551436485, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642867551436706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642867551436732, "dur":17350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642867551454186, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642867551454489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642867551454497, "dur":2823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642867551457385, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642867551457592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642867551467958, "dur":1931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642867551469979, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642867551470170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642867551470178, "dur":3104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642867551473344, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642867551473615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642867551474241, "dur":24934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642867551499239, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642867551499867, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642867551499875, "dur":14762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642867551514722, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642867551514975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642867551514983, "dur":30725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642867551545774, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642867551545983, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642867551545991, "dur":2951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642867551549002, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642867551549205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642867551549214, "dur":11911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642867551561209, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642867551561427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642867551561437, "dur":2845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642867551564343, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1642867551564569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642867551564577, "dur":11742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1642867551576391, "dur":476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1642867551576871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642867551576881, "dur":15211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1642867551592293, "dur":1479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642867551593777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642867551593786, "dur":16830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642867551610683, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642867551610917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642867551610926, "dur":13001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642867551624003, "dur":2808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642867551626816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642867551626826, "dur":13338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642867551640252, "dur":427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642867551640683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642867551640692, "dur":16094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":5, "ts":1642867551656854, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1642867551657130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642867551657138, "dur":45382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1642867551702592, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1642867551702842, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642867551702858, "dur":1971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1642867551704889, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1642867551704934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642867551704940, "dur":27914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1642867551732924, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1642867551732993, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642867551733003, "dur":15919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1642867551748998, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1642867551749068, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1642867551749079, "dur":3004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1642867551752121, "dur":15573, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642867551358392, "dur":1313, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642867551359706, "dur":5327, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642867551365034, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1642867551365131, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642867551367621, "dur":3967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1642867551371632, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1642867551371677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642867551373194, "dur":1663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1642867551374927, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1642867551375005, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642867551375016, "dur":16739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1642867551391833, "dur":684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551392521, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642867551393086, "dur":27634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551420785, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551421041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642867551421051, "dur":31382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551452505, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551452832, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642867551452841, "dur":3006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551455912, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551456187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642867551456199, "dur":12970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551469244, "dur":410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1642867551469657, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642867551469667, "dur":2990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1642867551472724, "dur":395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551473123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642867551473134, "dur":25998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551499204, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551499424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642867551499915, "dur":14125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551514147, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551514453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642867551514609, "dur":30233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551544997, "dur":657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551545660, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642867551545673, "dur":3036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551548778, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551549016, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642867551549022, "dur":11306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551560477, "dur":492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551560976, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642867551560990, "dur":2825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551563898, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551564160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642867551564172, "dur":12327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551576574, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551576889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642867551576897, "dur":14780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551591839, "dur":427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551592270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642867551592303, "dur":16694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551609069, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551609321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642867551609337, "dur":13929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551623339, "dur":867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551624368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642867551624383, "dur":2902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551627351, "dur":375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551627730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642867551627741, "dur":2652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551630471, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551630785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642867551630796, "dur":24666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551655514, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1642867551655915, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642867551655934, "dur":15875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1642867551671878, "dur":416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551685319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642867551685328, "dur":18943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1642867551704345, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1642867551704414, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642867551704423, "dur":2344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1642867551706846, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1642867551706965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1642867551706974, "dur":44614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1642867551751627, "dur":16103, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642867551358577, "dur":1169, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642867551359746, "dur":5289, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642867551365035, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1642867551365134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642867551367720, "dur":5422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1642867551373218, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1642867551373459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642867551373469, "dur":17418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1642867551390950, "dur":37231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642867551428184, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642867551436215, "dur":266363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1642867551702651, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1642867551702713, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642867551702867, "dur":2947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1642867551705880, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1642867551706112, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642867551706226, "dur":1510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1642867551707793, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1642867551707849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642867551707856, "dur":25523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1642867551733435, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1642867551733505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1642867551733510, "dur":17065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1642867551750630, "dur":17101, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642867551358734, "dur":1050, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642867551359784, "dur":5227, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642867551365012, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1642867551365107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642867551368013, "dur":3419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1642867551371480, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1642867551371525, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642867551371534, "dur":18460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1642867551390063, "dur":1356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642867551391422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642867551391671, "dur":13684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642867551405425, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642867551405649, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642867551405661, "dur":15929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642867551421638, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642867551421792, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642867551421798, "dur":30700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642867551452571, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642867551452799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642867551452810, "dur":4114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642867551457005, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642867551457315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642867551457326, "dur":12500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642867551469874, "dur":524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642867551470519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642867551470529, "dur":4222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642867551474827, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642867551475036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642867551475043, "dur":24922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642867551500051, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642867551500256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642867551500262, "dur":14396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642867551514738, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642867551514970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642867551514979, "dur":30716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642867551545767, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642867551545988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642867551545997, "dur":3081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642867551549136, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642867551549306, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642867551549311, "dur":12207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642867551561585, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642867551561797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642867551561806, "dur":2570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642867551564440, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642867551564673, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642867551564685, "dur":12376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642867551577110, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642867551577438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642867551577446, "dur":14630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642867551592138, "dur":2926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642867551595067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642867551595074, "dur":44840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642867551639983, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1642867551640265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642867551640272, "dur":15634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1642867551655997, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1642867551656270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642867551656277, "dur":15270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1642867551671612, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642867551685243, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642867551685256, "dur":17986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1642867551703331, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":8, "ts":1642867551703387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642867551703395, "dur":2455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":8, "ts":1642867551705932, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1642867551706008, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1642867551706016, "dur":61469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/hugos/Documents/dev/epita/v7/not-euclidream_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1642867551767528, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1642867551767530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1642867551772057, "dur":4069, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1642867551827205, "dur": 2815, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1642867551826337, "dur": 3707, "ph": "X", "name": "Write chrome-trace events", "args": {} },
