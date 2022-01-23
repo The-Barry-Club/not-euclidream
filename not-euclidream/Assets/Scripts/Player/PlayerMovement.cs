@@ -24,12 +24,20 @@ public class PlayerMovement : MonoBehaviour
     //For multiplayer
     private PhotonView view;
     public GameObject playerCamera;
+    
+    //For animations
+    public Animator animator;
+    private int isWalkingHash;
 
     private void Start()
     {
         //For multiplayer
         view = GetComponent<PhotonView>();
+        Debug.Log(animator);
         
+        //For animations
+        isWalkingHash = Animator.StringToHash("isWalking");
+
     }
 
     // Update is called once per frame
@@ -39,8 +47,26 @@ public class PlayerMovement : MonoBehaviour
         //For multiplayer
         if (view.IsMine)
         {
+            //For multiplayer
             if(playerCamera.activeInHierarchy == false)
                 playerCamera.SetActive(true);
+            
+            // ----- Animations --------
+
+            bool isWalking = animator.GetBool(isWalkingHash);
+            bool forward = Input.GetKey("z");
+            if(!isWalking && forward)
+                animator.SetBool(isWalkingHash,true);
+            
+            if(isWalking && !forward)
+                animator.SetBool(isWalkingHash,false);
+            
+            
+            
+            
+            
+            // ----- End anims. --------
+            
             isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
             if(isGrounded && velocity.y < 0)
@@ -66,5 +92,5 @@ public class PlayerMovement : MonoBehaviour
             velocity.y += gravity * Time.deltaTime;
             controller.Move(velocity * Time.deltaTime);
         }
-        }
+    }
 }
