@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - CameraController
     - ConnectToServer
     - CreateAndJoinRooms
+    - ObstaclePush
     - PlayerMovement
     - SpawnPlayers
     PhotonUnityNetworking.Demos.dll:
@@ -109,6 +110,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6452}
     - Class: 114
       Script: {instanceID: 6610}
+    - Class: 114
+      Script: {instanceID: 27764}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -228,6 +231,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 8202}
     - Class: 114
       Script: {instanceID: 8418}
+    - Class: 114
+      Script: {instanceID: 27764}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2014,9 +2019,15 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ea33e8848fcf2383a370c039d137cc77
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ObstaclePush
   platform: 19
   scenePathNames:
   - Assets/Scenes/Loading.unity
   - Assets/Scenes/Lobby.unity
   - Assets/Scenes/Game.unity
-  playerPath: C:/Users/hugos/Documents/dev/epita/s2/v24/not-euclidream.exe
+  playerPath: C:/Users/hugos/Documents/dev/epita/s2/v25/not-euclidream.exe

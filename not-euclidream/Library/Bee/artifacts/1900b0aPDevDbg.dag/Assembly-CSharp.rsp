@@ -334,6 +334,7 @@
 "Assets/Scripts/Multiplayer/CreateAndJoinRooms.cs"
 "Assets/Scripts/Multiplayer/SpawnPlayers.cs"
 "Assets/Scripts/Player/CameraController.cs"
+"Assets/Scripts/Player/ObstaclePush.cs"
 "Assets/Scripts/Player/PlayerMovement.cs"
 -langversion:9.0
 
