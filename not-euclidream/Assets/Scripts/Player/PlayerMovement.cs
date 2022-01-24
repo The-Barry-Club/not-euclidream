@@ -28,6 +28,8 @@ public class PlayerMovement : MonoBehaviour
     //For animations
     public Animator animator;
     private int isWalkingHash;
+    private int isWalkingBackwardsHash;
+    private int isJumpingHash;
 
     private void Start()
     {
@@ -37,6 +39,8 @@ public class PlayerMovement : MonoBehaviour
         
         //For animations
         isWalkingHash = Animator.StringToHash("isWalking");
+        isWalkingBackwardsHash = Animator.StringToHash("isWalkingBackwards");
+        isJumpingHash = Animator.StringToHash("isWalkingBackwards");
 
     }
 
@@ -51,23 +55,40 @@ public class PlayerMovement : MonoBehaviour
             if(playerCamera.activeInHierarchy == false)
                 playerCamera.SetActive(true);
             
+            
+            isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+            
             // ----- Animations --------
 
             bool isWalking = animator.GetBool(isWalkingHash);
+            bool isWalkingBackwards = animator.GetBool(isWalkingBackwardsHash);
+            bool isJumping = animator.GetBool(isJumpingHash);
             bool forward = Input.GetKey("z");
+            bool backward = Input.GetKey("s");
+            bool jump = Input.GetKey("space");
             if(!isWalking && forward)
                 animator.SetBool(isWalkingHash,true);
             
             if(isWalking && !forward)
                 animator.SetBool(isWalkingHash,false);
             
+            if(!isWalkingBackwards && backward)
+                animator.SetBool(isWalkingBackwardsHash,true);
             
+            if(isWalkingBackwards && !backward)
+                animator.SetBool(isWalkingBackwardsHash,false);
+            
+            if(!isJumping && isGrounded && jump)
+                animator.SetBool(isJumpingHash,true);
+            
+            if(isJumping && isGrounded && !jump)
+                animator.SetBool(isJumpingHash,false);
             
             
             
             // ----- End anims. --------
             
-            isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+            
 
             if(isGrounded && velocity.y < 0)
             {
