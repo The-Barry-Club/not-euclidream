@@ -15,7 +15,7 @@ C:/Users/forme/Desktop/BARRY CLUB/not-euclidream/not-euclidream
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-60068
+51161
 Successfully changed project path to: C:/Users/forme/Desktop/BARRY CLUB/not-euclidream/not-euclidream
 C:/Users/forme/Desktop/BARRY CLUB/not-euclidream/not-euclidream
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/forme/Desktop/BARRY CLUB/not-euclidream/not-euclidream
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 106.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 88.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.4f1 (99ba6aa4c552)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.4f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +63,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008211 seconds.
+Registered in 0.007790 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 110.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 85.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.816 seconds
+- Completed reload, in  0.725 seconds
 Domain Reload Profiling:
-	ReloadAssembly (817ms)
-		BeginReloadAssembly (94ms)
+	ReloadAssembly (725ms)
+		BeginReloadAssembly (85ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (617ms)
-			LoadAssemblies (91ms)
+		EndReloadAssembly (551ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (126ms)
+			SetupTypeCache (116ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (391ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (339ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (110ms)
+				RefreshPlugins (86ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (204ms)
-				ProcessInitializeOnLoadMethodAttributes (58ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012068 seconds.
+Registered in 0.011851 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\forme\Desktop\BARRY CLUB\not-euclidream\not-euclidream\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\forme\Desktop\BARRY CLUB\not-euclidream\not-euclidream\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.699 seconds
+- Completed reload, in  1.265 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1700ms)
-		BeginReloadAssembly (221ms)
+	ReloadAssembly (1266ms)
+		BeginReloadAssembly (209ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (1349ms)
-			LoadAssemblies (109ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (950ms)
+			LoadAssemblies (98ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (358ms)
+			SetupTypeCache (281ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (104ms)
-			SetupLoadedEditorAssemblies (399ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (400ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (1ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (249ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (14ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (247ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3451 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (112.1 KB). Loaded Objects now: 3903.
-Memory consumption went from 124.4 MB to 124.3 MB.
-Total: 2.971900 ms (FindLiveObjects: 0.284100 ms CreateObjectMapping: 0.171200 ms MarkObjects: 2.408500 ms  DeleteObjects: 0.107000 ms)
+Unloading 3462 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (111.9 KB). Loaded Objects now: 3914.
+Memory consumption went from 124.8 MB to 124.7 MB.
+Total: 3.951300 ms (FindLiveObjects: 0.290900 ms CreateObjectMapping: 0.210700 ms MarkObjects: 3.301500 ms  DeleteObjects: 0.147500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -158,50 +158,56 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 285619.286302 seconds.
+  path: Assets/UI Ressources/Images/Barry.jpg
+  artifactKey: Guid(47c5a6cccee8ab0409a5aae6e33e7c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Ressources/Images/Barry.jpg using Guid(47c5a6cccee8ab0409a5aae6e33e7c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a782653406b10177dc910914cf03925') in 0.109061 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011290 seconds.
+Registered in 0.011382 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\forme\Desktop\BARRY CLUB\not-euclidream\not-euclidream\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\forme\Desktop\BARRY CLUB\not-euclidream\not-euclidream\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.308 seconds
+- Completed reload, in  1.742 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1309ms)
-		BeginReloadAssembly (160ms)
+	ReloadAssembly (1743ms)
+		BeginReloadAssembly (189ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (1043ms)
-			LoadAssemblies (102ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1422ms)
+			LoadAssemblies (111ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (340ms)
+			SetupTypeCache (355ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (400ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (377ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (91ms)
+				BeforeProcessingInitializeOnLoad (76ms)
 				ProcessInitializeOnLoadAttributes (244ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3432 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (78.6 KB). Loaded Objects now: 3906.
-Memory consumption went from 122.8 MB to 122.8 MB.
-Total: 3.556200 ms (FindLiveObjects: 0.372900 ms CreateObjectMapping: 0.306100 ms MarkObjects: 2.783900 ms  DeleteObjects: 0.091800 ms)
+Unloading 3444 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (79.0 KB). Loaded Objects now: 3934.
+Memory consumption went from 123.9 MB to 123.8 MB.
+Total: 4.298700 ms (FindLiveObjects: 0.287700 ms CreateObjectMapping: 0.194000 ms MarkObjects: 3.735800 ms  DeleteObjects: 0.080300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -214,50 +220,56 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 134.962798 seconds.
+  path: Assets/Scripts/UI/Main menu/MenuController.cs
+  artifactKey: Guid(9749f4de65187bc479e0cab51359b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/Main menu/MenuController.cs using Guid(9749f4de65187bc479e0cab51359b2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c5d1e21e32d5f4a1c75b7ad4bed039') in 0.012531 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011190 seconds.
+Registered in 0.015263 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\forme\Desktop\BARRY CLUB\not-euclidream\not-euclidream\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\forme\Desktop\BARRY CLUB\not-euclidream\not-euclidream\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.247 seconds
+- Completed reload, in  1.222 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1248ms)
-		BeginReloadAssembly (147ms)
+	ReloadAssembly (1223ms)
+		BeginReloadAssembly (144ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (978ms)
-			LoadAssemblies (99ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (963ms)
+			LoadAssemblies (98ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (309ms)
+			SetupTypeCache (290ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (385ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (392ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (238ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (13ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (250ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3432 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (78.6 KB). Loaded Objects now: 3909.
-Memory consumption went from 122.8 MB to 122.8 MB.
-Total: 4.906400 ms (FindLiveObjects: 0.474200 ms CreateObjectMapping: 0.401500 ms MarkObjects: 3.932600 ms  DeleteObjects: 0.096800 ms)
+Unloading 3443 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (78.7 KB). Loaded Objects now: 3937.
+Memory consumption went from 123.9 MB to 123.8 MB.
+Total: 3.771800 ms (FindLiveObjects: 0.425300 ms CreateObjectMapping: 0.396500 ms MarkObjects: 2.847000 ms  DeleteObjects: 0.100800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
