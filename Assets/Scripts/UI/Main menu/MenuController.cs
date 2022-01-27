@@ -15,9 +15,9 @@ public class MenuController : MonoBehaviour
     [SerializeField] private Slider volumeSlider = null;
 
     [Header("Gameplay Settings")] 
-    [SerializeField] private TMP_Text SensiTextValue = null;
+    [SerializeField] private TMP_Text controllerSenTextValue = null;
     [SerializeField] private Slider controllerSenSlider = null;
-    public float mainControllerSen = 1.0;
+    public float mainControllerSen = 1;
 
     [Header("Toggle Settings")] 
     [SerializeField] private Toggle invertYToggle = null;
@@ -51,7 +51,7 @@ public class MenuController : MonoBehaviour
     {
         if (invertYToggle.isOn)
         {
-            PlayerPrefs.setInt("masterInvertY", 1);
+            PlayerPrefs.SetInt("masterInvertY", 1);
             //INVERT Y
         }
         else
