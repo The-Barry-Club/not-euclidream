@@ -14,7 +14,15 @@ public class MenuController : MonoBehaviour
     [SerializeField] private TMP_Text volumeTextValue = null;
     [SerializeField] private Slider volumeSlider = null;
 
-    [Header("Apply")]
+    [Header("Gameplay Settings")] 
+    [SerializeField] private TMP_Text SensiTextValue = null;
+    [SerializeField] private Slider controllerSenSlider = null;
+    public float mainControllerSen = 1.0;
+
+    [Header("Toggle Settings")] 
+    [SerializeField] private Toggle invertYToggle = null;
+    
+    [Header("Confirmation")]
     [SerializeField] private GameObject confirmationPrompt = null;
 
     public void PlayBtn()
@@ -31,6 +39,29 @@ public class MenuController : MonoBehaviour
     {
         AudioListener.volume = volume;
         volumeTextValue.text = volume.ToString("0.0");
+    }
+
+    public void SetControllerSen(float sensitivity)
+    {
+        mainControllerSen = sensitivity;
+        controllerSenTextValue.text = sensitivity.ToString("0.0");
+    }
+
+    public void GameplayApply()
+    {
+        if (invertYToggle.isOn)
+        {
+            PlayerPrefs.setInt("masterInvertY", 1);
+            //INVERT Y
+        }
+        else
+        {
+            PlayerPrefs.SetInt("masterInverty", 0);
+            //DONT INVERT Y
+        }
+
+        PlayerPrefs.SetFloat("masterSensi", mainControllerSen);
+        StartCoroutine(Confirmation());
     }
 
     public void VolumeApply()
