@@ -56,7 +56,7 @@ public class MenuController : MonoBehaviour
         }
         else
         {
-            PlayerPrefs.SetInt("masterInverty", 0);
+            PlayerPrefs.SetInt("masterInvertY", 0);
             //DONT INVERT Y
         }
 
@@ -75,6 +75,15 @@ public class MenuController : MonoBehaviour
         float sensi = PlayerPrefs.GetFloat("masterSensi");
         controllerSenTextValue.text = sensi.ToString("0.0");
         controllerSenSlider.value = sensi;
+        int ToggleY = PlayerPrefs.GetInt("masterInvertY");
+        if (ToggleY == 1)
+        {
+            invertYToggle.isOn = true;
+        }
+        else
+        {
+            invertYToggle.isOn = false;
+        }
     }
 
     public void VolumeBack()
