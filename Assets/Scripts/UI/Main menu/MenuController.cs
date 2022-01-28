@@ -70,6 +70,20 @@ public class MenuController : MonoBehaviour
         StartCoroutine(Confirmation());
     }
 
+    public void GameplayBack()
+    {
+        float sensi = PlayerPrefs.GetFloat("masterSensi");
+        controllerSenTextValue.text = sensi.ToString("0.0");
+        controllerSenSlider.value = sensi;
+    }
+
+    public void VolumeBack()
+    {
+        float volume = PlayerPrefs.GetFloat("masterVolume");
+        volumeTextValue.text = volume.ToString("0.0");
+        volumeSlider.value = volume;
+    }
+
     public IEnumerator Confirmation()
     {
         confirmationPrompt.SetActive(true);
