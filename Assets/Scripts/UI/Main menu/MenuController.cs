@@ -24,7 +24,6 @@ public class MenuController : MonoBehaviour
 
     [Header("Graphics Settings")] 
     [SerializeField] private TMP_Text brightnessTextValue = null;
-
     [SerializeField] private Slider brightnessSlider = null;
     private int qualityLevel;
     private bool isFullScreen;
@@ -145,7 +144,9 @@ public class MenuController : MonoBehaviour
 
     public void GrpahicsBack()
     {
-        ;
+        float brightn = PlayerPrefs.GetFloat("masterBrightness");
+        brightnessTextValue.text = brightn.ToString("0.0");
+        brightnessSlider.value = brightn;
     }
 
     public void GameplayBack()
