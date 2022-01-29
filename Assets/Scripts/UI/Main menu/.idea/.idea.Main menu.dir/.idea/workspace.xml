@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="117ef7bd-4e3c-4d44-9d88-6bbf309dbb09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Main menu.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Main menu.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Scenes/Starting Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Scenes/Starting Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MenuController.cs" afterDir="false" />
-    </list>
+    <list default="true" id="117ef7bd-4e3c-4d44-9d88-6bbf309dbb09" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +43,7 @@
       <workItem from="1643390953818" duration="4753000" />
       <workItem from="1643402272908" duration="60000" />
       <workItem from="1643402483913" duration="1580000" />
-      <workItem from="1643460737137" duration="690000" />
+      <workItem from="1643460737137" duration="1287000" />
     </task>
     <servers />
   </component>
