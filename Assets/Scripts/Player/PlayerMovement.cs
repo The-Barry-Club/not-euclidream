@@ -35,7 +35,6 @@ public class PlayerMovement : MonoBehaviour
     {
         //For multiplayer
         view = GetComponent<PhotonView>();
-        Debug.Log(animator);
         
         //For animations
         isWalkingHash = Animator.StringToHash("isWalking");
