@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class OpenDoor : MonoBehaviour
@@ -13,11 +14,8 @@ public class OpenDoor : MonoBehaviour
             instructions.SetActive(true);
             Animator anim = other.GetComponentInChildren<Animator>();
             if(Input.GetKeyDown(KeyCode.E)){
-                Debug.Log("Instructions" + instructions);
                 status = anim.GetBool("OpenClose");
-                Debug.Log(status);
                 anim.SetBool("OpenClose",!status);
-                Debug.Log(anim.GetBool("OpenClose"));
             }
                 
         }  
