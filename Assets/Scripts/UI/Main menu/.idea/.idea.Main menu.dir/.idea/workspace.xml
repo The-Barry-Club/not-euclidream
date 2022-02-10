@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="117ef7bd-4e3c-4d44-9d88-6bbf309dbb09" name="Changes" comment="" />
+    <list default="true" id="117ef7bd-4e3c-4d44-9d88-6bbf309dbb09" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Scenes/Loading.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Scenes/Loading.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Scenes/Lobby.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Scenes/Lobby.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Scenes/Starting Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Scenes/Starting Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Main menu.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Main menu.dir/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/InGameMenu.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MenuController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LoadPrefs.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -44,6 +50,8 @@
       <workItem from="1643402272908" duration="60000" />
       <workItem from="1643402483913" duration="1580000" />
       <workItem from="1643460737137" duration="1287000" />
+      <workItem from="1644524746127" duration="350000" />
+      <workItem from="1644525112258" duration="235000" />
     </task>
     <servers />
   </component>
