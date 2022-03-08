@@ -85,6 +85,9 @@ AnimatorState:
   m_CycleOffsetParameter: 
   m_TimeParameter: 
 --- !u!1101 &-4922671839481955026
+=======
+--- !u!1101 &-4030986822268169880
+>>>>>>> main
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -96,10 +99,17 @@ AnimatorStateTransition:
 >>>>>>> main
   m_Conditions:
   - m_ConditionMode: 1
+<<<<<<< HEAD
     m_ConditionEvent: isWalking
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -427527614479899689}
+=======
+    m_ConditionEvent: OpenClose
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 6311434229829175905}
+>>>>>>> main
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
@@ -109,7 +119,11 @@ AnimatorStateTransition:
 <<<<<<< HEAD
   m_ExitTime: 0.9673913
 =======
+<<<<<<< HEAD
   m_ExitTime: 0.87288135
+=======
+  m_ExitTime: 0.625
+>>>>>>> 9244777ca8b87c47efed7c20e09b158e645d6e1e
 >>>>>>> main
   m_HasExitTime: 0
   m_HasFixedDuration: 1
@@ -118,6 +132,34 @@ AnimatorStateTransition:
   m_CanTransitionToSelf: 1
 <<<<<<< HEAD
 --- !u!1102 &-903786365647889022
+=======
+--- !u!1101 &-1278320841087212858
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: OpenClose
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -789405374029274278}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.625
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+--- !u!1102 &-789405374029274278
+>>>>>>> main
 AnimatorState:
   serializedVersion: 6
 =======
@@ -136,6 +178,13 @@ AnimatorStateTransition:
   - {fileID: -4922671839481955026}
   - {fileID: 4843171640312198261}
   - {fileID: 3564135875426226864}
+=======
+  m_Name: DoorOpen
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: -4030986822268169880}
+>>>>>>> main
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -145,6 +194,7 @@ AnimatorStateTransition:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
+<<<<<<< HEAD
   m_Motion: {fileID: 7400000, guid: 1d52d516056e46d41b314c384e5c103e, type: 2}
   m_Tag: 
   m_SpeedParameter: 
@@ -198,6 +248,9 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: 1e28440c8da5a0447b05d0ba4a1b2d4c, type: 2}
+=======
+  m_Motion: {fileID: 7400000, guid: cd4c475bef15c5f4a852c64acd132764, type: 2}
+>>>>>>> main
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -209,6 +262,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_Name: BarryController
   serializedVersion: 5
   m_AnimatorParameters:
@@ -237,6 +291,21 @@ AnimatorController:
   - serializedVersion: 5
     m_Name: Base Layer
     m_StateMachine: {fileID: 2867176726577159044}
+=======
+  m_Name: doorpivot
+  serializedVersion: 5
+  m_AnimatorParameters:
+  - m_Name: OpenClose
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 1
+    m_Controller: {fileID: 9100000}
+  m_AnimatorLayers:
+  - serializedVersion: 5
+    m_Name: Base Layer
+    m_StateMachine: {fileID: 146387856278403596}
+>>>>>>> main
     m_Mask: {fileID: 0}
     m_Motions: []
     m_Behaviours: []
@@ -275,6 +344,9 @@ AnimatorStateTransition:
 =======
 >>>>>>> main
 --- !u!1107 &2867176726577159044
+=======
+--- !u!1107 &146387856278403596
+>>>>>>> main
 AnimatorStateMachine:
   serializedVersion: 6
   m_ObjectHideFlags: 1
@@ -284,6 +356,7 @@ AnimatorStateMachine:
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
+<<<<<<< HEAD
     m_State: {fileID: -427527614479899689}
 <<<<<<< HEAD
     m_Position: {x: 290, y: 120, z: 0}
@@ -297,10 +370,18 @@ AnimatorStateMachine:
     m_State: {fileID: -5640531792708546595}
     m_Position: {x: 530, y: 220, z: 0}
 =======
+<<<<<<< HEAD
     m_Position: {x: 560, y: 110, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 8366897553660006585}
     m_Position: {x: 290, y: 110, z: 0}
+=======
+    m_State: {fileID: -789405374029274278}
+    m_Position: {x: 50, y: 100, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 6311434229829175905}
+    m_Position: {x: 330, y: 100, z: 0}
+>>>>>>> 9244777ca8b87c47efed7c20e09b158e645d6e1e
 >>>>>>> main
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
@@ -316,11 +397,19 @@ AnimatorStateMachine:
 --- !u!1101 &3564135875426226864
 AnimatorStateTransition:
 =======
+<<<<<<< HEAD
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 270, y: 10, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 8366897553660006585}
 --- !u!1102 &8366897553660006585
+=======
+  m_EntryPosition: {x: 250, y: 180, z: 0}
+  m_ExitPosition: {x: 800, y: 120, z: 0}
+  m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
+  m_DefaultState: {fileID: 6311434229829175905}
+--- !u!1102 &6311434229829175905
+>>>>>>> 9244777ca8b87c47efed7c20e09b158e645d6e1e
 AnimatorState:
   serializedVersion: 6
 >>>>>>> main
@@ -399,11 +488,19 @@ AnimatorStateTransition:
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
 =======
+<<<<<<< HEAD
   m_Name: Idle
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -4966327026182507507}
+=======
+  m_Name: DoorClose
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: -1278320841087212858}
+>>>>>>> 9244777ca8b87c47efed7c20e09b158e645d6e1e
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -413,7 +510,11 @@ AnimatorStateTransition:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
+<<<<<<< HEAD
   m_Motion: {fileID: 7400000, guid: 5568275ccee04f1409490942aece9e38, type: 2}
+=======
+  m_Motion: {fileID: 7400000, guid: a22f8f0f8cc62f24e966d7bc4cee40cc, type: 2}
+>>>>>>> 9244777ca8b87c47efed7c20e09b158e645d6e1e
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

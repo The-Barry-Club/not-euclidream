@@ -38,14 +38,24 @@ public class PlayerMovement : MonoBehaviour
     {
         //For multiplayer
         view = GetComponent<PhotonView>();
+<<<<<<< HEAD
+        
+        //For animations
+        isWalkingHash = Animator.StringToHash("isWalking");
+        isWalkingBackwardsHash = Animator.StringToHash("isWalkingBackwards");
+        isJumpingHash = Animator.StringToHash("isWalkingBackwards");
+=======
         Debug.Log(animator);
         
         //For animations
         isWalkingHash = Animator.StringToHash("isWalking");
 <<<<<<< HEAD
+<<<<<<< HEAD
         isWalkingBackwardsHash = Animator.StringToHash("isWalkingBackwards");
         isJumpingHash = Animator.StringToHash("isWalkingBackwards");
 =======
+=======
+>>>>>>> 9244777ca8b87c47efed7c20e09b158e645d6e1e
 >>>>>>> main
 
     }

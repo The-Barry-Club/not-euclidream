@@ -45,8 +45,13 @@ public class CameraController : MonoBehaviour
             playerBody.Rotate(Vector3.up * mouseX);
             
             //Code to rotate the head
+<<<<<<< HEAD
             float xRotationCopy = Mathf.Clamp(xRotation, -60f, 10f);
             head.transform.localRotation = Quaternion.Euler(xRotationCopy, 0f, 0f);
+=======
+            float xRotationCopy = Mathf.Clamp(xRotation, -50f, 10f);
+            head.transform.localRotation = Quaternion.Euler(xRotationCopy-10, 0f, 0f);
+>>>>>>> 9244777ca8b87c47efed7c20e09b158e645d6e1e
 =======
             xRotation = Mathf.Clamp(xRotation, -68f, 90f);
             transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
