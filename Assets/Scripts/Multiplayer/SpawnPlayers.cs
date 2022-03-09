@@ -3,10 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
-<<<<<<< HEAD
 using UnityEngine.PlayerLoop;
-=======
->>>>>>> main
 using Random = System.Random;
 
 public class SpawnPlayers : MonoBehaviour
@@ -23,9 +20,6 @@ public class SpawnPlayers : MonoBehaviour
         int z = new Random().Next(minZ, maxZ);
         Vector3 randomPos = new Vector3(x,1,z);
         PhotonNetwork.Instantiate(playerPrefab.name, randomPos, Quaternion.identity);
-<<<<<<< HEAD
     
-=======
->>>>>>> main
     }
 }

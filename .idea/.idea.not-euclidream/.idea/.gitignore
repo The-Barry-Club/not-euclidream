@@ -2,7 +2,6 @@
 /shelf/
 /workspace.xml
 # Rider ignored files
-<<<<<<< HEAD
 /.idea.not-euclidream.iml
 /projectSettingsUpdater.xml
 /contentModel.xml
@@ -12,14 +11,3 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
-=======
-/modules.xml
-/projectSettingsUpdater.xml
-/.idea.not-euclidream.iml
-/contentModel.xml
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
-# Editor-based HTTP Client requests
-/httpRequests/
->>>>>>> main

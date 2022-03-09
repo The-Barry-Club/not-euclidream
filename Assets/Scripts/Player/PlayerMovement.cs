@@ -28,28 +28,18 @@ public class PlayerMovement : MonoBehaviour
     //For animations
     public Animator animator;
     private int isWalkingHash;
-<<<<<<< HEAD
     private int isWalkingBackwardsHash;
     private int isJumpingHash;
-=======
->>>>>>> main
 
     private void Start()
     {
         //For multiplayer
         view = GetComponent<PhotonView>();
-<<<<<<< HEAD
         
         //For animations
         isWalkingHash = Animator.StringToHash("isWalking");
         isWalkingBackwardsHash = Animator.StringToHash("isWalkingBackwards");
         isJumpingHash = Animator.StringToHash("isWalkingBackwards");
-=======
-        Debug.Log(animator);
-        
-        //For animations
-        isWalkingHash = Animator.StringToHash("isWalking");
->>>>>>> main
 
     }
 
@@ -64,7 +54,6 @@ public class PlayerMovement : MonoBehaviour
             if(playerCamera.activeInHierarchy == false)
                 playerCamera.SetActive(true);
             
-<<<<<<< HEAD
             
             isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
             
@@ -76,19 +65,12 @@ public class PlayerMovement : MonoBehaviour
             bool forward = Input.GetKey("z");
             bool backward = Input.GetKey("s");
             bool jump = Input.GetKey("space");
-=======
-            // ----- Animations --------
-
-            bool isWalking = animator.GetBool(isWalkingHash);
-            bool forward = Input.GetKey("z");
->>>>>>> main
             if(!isWalking && forward)
                 animator.SetBool(isWalkingHash,true);
             
             if(isWalking && !forward)
                 animator.SetBool(isWalkingHash,false);
             
-<<<<<<< HEAD
             if(!isWalkingBackwards && backward)
                 animator.SetBool(isWalkingBackwardsHash,true);
             
@@ -100,19 +82,12 @@ public class PlayerMovement : MonoBehaviour
             
             if(isJumping && isGrounded && !jump)
                 animator.SetBool(isJumpingHash,false);
-=======
-            
->>>>>>> main
             
             
             
             // ----- End anims. --------
             
-<<<<<<< HEAD
             
-=======
-            isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
->>>>>>> main
 
             if(isGrounded && velocity.y < 0)
             {
