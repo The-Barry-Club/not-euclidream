@@ -13,7 +13,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/InGameMenu.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MenuController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LoadPrefs.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -52,6 +51,8 @@
       <workItem from="1643460737137" duration="1287000" />
       <workItem from="1644524746127" duration="350000" />
       <workItem from="1644525112258" duration="235000" />
+      <workItem from="1646814423710" duration="213000" />
+      <workItem from="1646821924585" duration="597000" />
     </task>
     <servers />
   </component>
