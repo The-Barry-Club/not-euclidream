@@ -255,6 +255,7 @@ GameObject:
   - component: {fileID: 7882282717758056202}
   - component: {fileID: 7882282717758056203}
   - component: {fileID: 1904947512012557490}
+  - component: {fileID: 9090525142873095691}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: Untagged
@@ -343,6 +344,38 @@ MonoBehaviour:
   mouseSensitivity: 2
   playerBody: {fileID: 7882282718378723303}
   head: {fileID: 8140842350289507804}
+--- !u!114 &9090525142873095691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7882282717758056200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 509c7dabc11d1426a919fbec441cefb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _shader: {fileID: 4800000, guid: 8f4de6e9330b641579626ad7feb3b23e, type: 3}
+  _camera: {fileID: 7882282717758056202}
+  _directionalLight: {fileID: 0}
+  _player: {fileID: 7882282718378723303}
+  _precision: 0.001
+  _max_iteration: 200
+  _wRotation: {x: 0, y: 0, z: 0}
+  _wPosition: 0
+  _useNormal: 1
+  _nrOfCascades: 3
+  _lightIntensity: 0.745
+  _useShadow: 1
+  _useSoftShadow: 0
+  _shadowSoftness: 2.81
+  _maxShadowDistance: 45
+  _shadowIntensity: 0.587
+  _aoIntensity: 0
+  _skyColor: {r: 0, g: 0.9629069, b: 0.9716981, a: 0}
+  _renderNr: 0
+  orderedShapes: []
 --- !u!1 &7882282718378723301
 GameObject:
   m_ObjectHideFlags: 0
