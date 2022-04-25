@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="117ef7bd-4e3c-4d44-9d88-6bbf309dbb09" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../Scenes/Loading.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Scenes/Loading.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Scenes/Lobby.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Scenes/Lobby.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Scenes/Starting Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Scenes/Starting Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Main menu.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Main menu.dir/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="117ef7bd-4e3c-4d44-9d88-6bbf309dbb09" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +48,7 @@
       <workItem from="1644525112258" duration="235000" />
       <workItem from="1646814423710" duration="213000" />
       <workItem from="1646821924585" duration="597000" />
+      <workItem from="1646867571403" duration="4000" />
     </task>
     <servers />
   </component>
