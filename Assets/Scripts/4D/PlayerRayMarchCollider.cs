@@ -14,11 +14,13 @@ namespace Unity.Mathematics
 
         public float colliderOffset = 1.2f;
         public float maxDownMovement = 1f;
-        [Tooltip ("The transforms from which the raymarcher will test the distances and apply the collision")]
+        [Tooltip ("The transforms from which the raymarcher will test the distances and apply the collision (6 colliders from 4dCplliders)")]
         public Transform[] rayMarchTransforms;
 
         private DistanceFunctions Df;
         private RaymarchCam camScript;
+
+        private CharacterController controller;
 
 
         // Start is called before the first frame update
@@ -26,12 +28,13 @@ namespace Unity.Mathematics
         {
             camScript = Camera.main.GetComponent<RaymarchCam>();
             Df = GetComponent<DistanceFunctions>();
+            controller = GetComponent<CharacterController>();
         }
         
         // Update is called once per frame
         void Update()
         {
-            MoveToGround();
+            //MoveToGround();
             RayMarch(rayMarchTransforms);
             
         }
@@ -134,7 +137,8 @@ namespace Unity.Mathematics
                     Debug.Log("hit" + i);
                     nrHits++;
                     //collision
-                    transform.Translate(ro[i].forward * d * 1.5f, Space.World);
+                    //transform.Translate(ro[i].forward * d * 1.5f, Space.World);
+                    controller.Move(ro[i].forward * d * 0.5f);
 
                 }
 

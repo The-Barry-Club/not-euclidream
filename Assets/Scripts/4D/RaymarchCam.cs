@@ -31,8 +31,18 @@ public class RaymarchCam : SceneViewFilter
 
     private Material _raymarchMat;
 
-    public Camera _camera;
-    
+    public Camera _camera
+    {
+        get
+        {
+            if (!_cam)
+            {
+                _cam = GetComponent<Camera>();
+            }
+            return _cam;
+        }
+    }
+
     private Camera _cam;
     private float _forceFieldRad;
 
