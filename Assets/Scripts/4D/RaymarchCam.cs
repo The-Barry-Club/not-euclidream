@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using Photon.Pun;
 
 [RequireComponent(typeof(Camera))]
@@ -83,6 +85,8 @@ public class RaymarchCam : SceneViewFilter
     [Tooltip ("The color of the depthbuffer")]
     public Color _skyColor;
 
+    public GameObject wpos;
+    
     
 
     [HideInInspector]
@@ -90,6 +94,22 @@ public class RaymarchCam : SceneViewFilter
     [HideInInspector]
     public List<Shape4D> orderedShapes = new List<Shape4D>();
 
+
+    public void Update()
+    {
+        Vector3 objectScale = wpos.transform.localScale;
+        if ((Input.GetAxis("Mouse ScrollWheel") > 0f || Input.GetKeyDown("o")) && _wPosition < 10 ) // forward
+        {
+            _wPosition++;
+            wpos.transform.localScale = new Vector3(objectScale.x+0.025f,  objectScale.y, objectScale.z);
+        }
+        else if ((Input.GetAxis("Mouse ScrollWheel") < 0f || Input.GetKeyDown("p")) && _wPosition > -10 ) // backwards
+        {
+           _wPosition--;
+           wpos.transform.localScale = new Vector3(objectScale.x-0.025f,  objectScale.y, objectScale.z);
+
+        }
+    }
 
     // the main function that sends the data to the shader
     private void OnRenderImage(RenderTexture source, RenderTexture destination)
