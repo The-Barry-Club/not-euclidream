@@ -20,13 +20,15 @@ namespace Unity.Mathematics
         private DistanceFunctions Df;
         private RaymarchCam camScript;
 
+        public Camera _camera;
+
         private CharacterController controller;
 
 
         // Start is called before the first frame update
         void Start()
         {
-            camScript = Camera.main.GetComponent<RaymarchCam>();
+            camScript = _camera.GetComponent<RaymarchCam>();
             Df = GetComponent<DistanceFunctions>();
             controller = GetComponent<CharacterController>();
         }
@@ -74,7 +76,7 @@ namespace Unity.Mathematics
 
             }
 
-            return Camera.main.farClipPlane;
+            return _camera.farClipPlane;
         }
 
         public float DistanceField(float3 p)
@@ -91,7 +93,7 @@ namespace Unity.Mathematics
             }
 
 
-            float globalDst = Camera.main.farClipPlane;
+            float globalDst = _camera.farClipPlane;
 
 
             for (int i = 0; i < camScript.orderedShapes.Count; i++)

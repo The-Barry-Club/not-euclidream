@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
 [RequireComponent(typeof(Camera))]
 [ExecuteInEditMode]
@@ -30,9 +31,14 @@ public class RaymarchCam : SceneViewFilter
     }
 
     private Material _raymarchMat;
+    private PhotonView view;
+
+   
+
 
     public Camera _camera
     {
+        
         get
         {
             if (!_cam)
@@ -157,7 +163,7 @@ public class RaymarchCam : SceneViewFilter
 
         _raymarchMaterial.SetMatrix("_CamFrustrum", CamFrustrum(_camera));
         _raymarchMaterial.SetMatrix("_CamToWorld", _camera.cameraToWorldMatrix);
-        _raymarchMaterial.SetFloat("_maxDistance", Camera.main.farClipPlane);
+        _raymarchMaterial.SetFloat("_maxDistance", _camera.farClipPlane);
 
         _raymarchMaterial.SetFloat("_precision", _precision);
         _raymarchMaterial.SetFloat("_max_iteration", _max_iteration);
