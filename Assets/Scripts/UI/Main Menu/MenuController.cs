@@ -93,4 +93,84 @@ public class MenuController : MonoBehaviour
             invertYToggle.isOn = false;
         }*/
     }
+    
+    //GRAPHICS SETTINGS
+    [Header("Graphics Settings")] 
+    [SerializeField] private TMP_Text brightnessTextValue = null;
+    [SerializeField] private Slider brightnessSlider = null;
+    private int qualityLevel;
+    private bool isFullScreen;
+    private float brightnessLevel;
+    
+    public void SetBrightness(float brightness)
+    {
+        brightnessLevel = brightness;
+        brightnessTextValue.text = brightness.ToString("0.0");
+    }
+    
+    public void SetFullScreen(bool IsFullScreen)
+    {
+        isFullScreen = IsFullScreen;
+    }
+
+    public void SetQuality(int qualityIndex)
+    {
+        qualityLevel = qualityIndex;
+    }
+    
+    public void GraphicsApply()
+    {
+        PlayerPrefs.SetFloat("masterBrightness", brightnessLevel);
+        //change brightness with post processing
+
+        PlayerPrefs.SetInt("masterQuality", qualityLevel);
+        QualitySettings.SetQualityLevel(qualityLevel);
+
+        PlayerPrefs.SetInt("masterFullScreen", (isFullScreen ? 1 : 0));
+        Screen.fullScreen = isFullScreen;
+
+        //StartCoroutine(Confirmation());
+    }
+    
+    public void GraphicsBack()
+    {
+        float brightn = PlayerPrefs.GetFloat("masterBrightness");
+        brightnessTextValue.text = brightn.ToString("0.0");
+        brightnessSlider.value = brightn;
+    }
+    
+    //Resolution
+    [Header("Resolution")] 
+    public TMP_Dropdown resolutionDropdown;
+    private Resolution[] resolutions;
+    private void Start()
+    {
+        resolutions = Screen.resolutions;
+        resolutionDropdown.ClearOptions();
+
+        List<string> options = new List<string>();
+        
+        int currentResolutionIndex = 0;
+
+        for (int i = 0; i < resolutions.Length; i++)
+        {
+            string option = resolutions[i].width + "x" + resolutions[i].height;
+            options.Add(option);
+
+            if (resolutions[i].width == Screen.width && resolutions[i].height == Screen.height)
+            {
+                currentResolutionIndex = i;
+            }
+        }
+
+        resolutionDropdown.AddOptions(options);
+        resolutionDropdown.value = currentResolutionIndex;
+        resolutionDropdown.RefreshShownValue();
+    }
+    
+    public void SetResolution(int resolutionIndex)
+    {
+        Resolution resolution = resolutions[resolutionIndex];
+        Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
+    }
 }
