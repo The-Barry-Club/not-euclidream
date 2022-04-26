@@ -45,4 +45,52 @@ public class MenuController : MonoBehaviour
         volumeTextValue.text = volume.ToString("0.0");
         volumeSlider.value = volume;
     }
+    
+    //GAMEPLAY SETTINGS
+    [Header("Gameplay Settings")] 
+    [SerializeField] private TMP_Text controllerSenTextValue = null;
+    [SerializeField] private Slider controllerSenSlider = null;
+    public float mainControllerSen = 1;
+    
+    public void SetControllerSen(float sensitivity)
+    {
+        mainControllerSen = sensitivity;
+        controllerSenTextValue.text = sensitivity.ToString("0.0");
+    }
+    
+    public void GameplayApply()
+    {
+        //IF WE DO THE INVERTY TOGGLE
+        /*if (invertYToggle.isOn)
+        {
+            PlayerPrefs.SetInt("masterInvertY", 1);
+            //INVERT Y
+        }
+        else
+        {
+            PlayerPrefs.SetInt("masterInvertY", 0);
+            //DONT INVERT Y
+        }*/
+
+        PlayerPrefs.SetFloat("masterSensi", mainControllerSen);
+        //StartCoroutine(Confirmation());
+    }
+    
+    public void GameplayBack()
+    {
+        float sensi = PlayerPrefs.GetFloat("masterSensi");
+        controllerSenTextValue.text = sensi.ToString("0.0");
+        controllerSenSlider.value = sensi;
+        
+        //IF WE DO THE INVERTY TOGGLE
+        /*int ToggleY = PlayerPrefs.GetInt("masterInvertY");
+        if (ToggleY == 1)
+        {
+            invertYToggle.isOn = true;
+        }
+        else
+        {
+            invertYToggle.isOn = false;
+        }*/
+    }
 }
