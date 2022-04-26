@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+//using UnityEngine.UI;
 using Photon.Pun;
 
 [RequireComponent(typeof(Camera))]
@@ -85,7 +85,7 @@ public class RaymarchCam : SceneViewFilter
     [Tooltip ("The color of the depthbuffer")]
     public Color _skyColor;
 
-    public GameObject wpos;
+    public GameObject wpos ;
     
     
 
