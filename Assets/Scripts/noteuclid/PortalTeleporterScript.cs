@@ -2,54 +2,48 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PortalTeleporterScript : MonoBehaviour {
+public class PortalTeleporterScript : MonoBehaviour
+{
+    public Transform player;
+    public Transform reciever;
 
-    public GameObject[] players;
-	public Transform player;
-	public Transform reciever;
+    private bool playerIsOverlapping = false;
+    // Update is called once per frame
+    void Update()
+    {
+        if (playerIsOverlapping)
+        {
+            Debug.Log("ouai");
+            Vector3 portalToPlayer = player.position - transform.position;
+            float dotProduct = Vector3.Dot(reciever.forward, portalToPlayer);
 
-	private bool playerIsOverlapping = false;
+            if (dotProduct < 0f)
+            {
+                float rotationDiff = -Quaternion.Angle(transform.rotation, reciever.rotation);
+                rotationDiff += 180;
+                player.Rotate(Vector3.up, rotationDiff);
 
-	// Update is called once per frame
-	void Update () {
+                Vector3 positionOffset = Quaternion.Euler(0f, rotationDiff, 0f) * portalToPlayer;
+                player.position = reciever.position + positionOffset;
 
-    
-		if (playerIsOverlapping)
-		{
-            players = GameObject.FindGameObjectsWithTag("Player");
-            player = players[0].transform;  
-			Vector3 portalToPlayer = player.position - transform.position;
-			float dotProduct = Vector3.Dot(transform.up, portalToPlayer);
+                playerIsOverlapping = false;
+            }
+        }
+    }
 
-			// If this is true: The player has moved across the portal
-			if (dotProduct < 0f)
-			{
-				// Teleport him!
-				float rotationDiff = -Quaternion.Angle(transform.rotation, reciever.rotation);
-				rotationDiff += 180;
-				player.Rotate(Vector3.up, rotationDiff);
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            playerIsOverlapping = true;
+        }
+    }
 
-				Vector3 positionOffset = Quaternion.Euler(0f, rotationDiff, 0f) * portalToPlayer;
-				player.position = reciever.position + positionOffset;
-
-				playerIsOverlapping = false;
-			}
-		}
-	}
-
-	void OnTriggerEnter (Collider other)
-	{
-		if (other.tag == "Player")
-		{
-			playerIsOverlapping = true;
-		}
-	}
-
-	void OnTriggerExit (Collider other)
-	{
-		if (other.tag == "Player")
-		{
-			playerIsOverlapping = false;
-		}
-	}
+    void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            playerIsOverlapping = false;
+        }
+    }
 }
