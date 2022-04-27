@@ -61,6 +61,7 @@ public class PauseMenu : MonoBehaviour
     
     public void MainMenuYesBtn()
     {
+        PhotonNetwork.Disconnect();
         PhotonNetwork.LoadLevel("MainMenu");
         //SceneManager.LoadScene(_MainMenu);
     }
