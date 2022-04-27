@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PortalCamera : MonoBehaviour
 {
+    public GameObject[] players;
     public Transform playerCamera;
     public Transform portal;
     public Transform otherPortal;
@@ -17,6 +18,9 @@ public class PortalCamera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        players = GameObject.FindGameObjectsWithTag("Player");
+        playerCamera = players[0].transform;
+
         Vector3 playerOffsetFromPortal = playerCamera.position - otherPortal.position;
         transform.position = portal.position + playerOffsetFromPortal;
 

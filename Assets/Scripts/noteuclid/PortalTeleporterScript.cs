@@ -9,11 +9,18 @@ public class PortalTeleporterScript : MonoBehaviour
 
     private bool playerIsOverlapping = false;
     // Update is called once per frame
+
+    
+    void Start()
+    {
+        player = GameObject.FindGameObjectsWithTag("Player")[0].transform;    
+    }
+
     void Update()
     {
         if (playerIsOverlapping)
         {
-            Debug.Log("ouai");
+            //Debug.Log("ouai");
             Vector3 portalToPlayer = player.position - transform.position;
             float dotProduct = Vector3.Dot(reciever.forward, portalToPlayer);
 
@@ -35,7 +42,9 @@ public class PortalTeleporterScript : MonoBehaviour
     {
         if (other.tag == "Player")
         {
+            player = other.GetComponentInParent<Transform>();
             playerIsOverlapping = true;
+            
         }
     }
 
