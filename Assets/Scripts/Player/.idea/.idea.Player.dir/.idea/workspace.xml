@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5368316-add3-4e97-885c-105688b07b8b" name="Changes" comment="" />
+    <list default="true" id="b5368316-add3-4e97-885c-105688b07b8b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Resources/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../../Resources/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +38,7 @@
       <option name="presentableId" value="Default" />
       <updated>1643287427106</updated>
       <workItem from="1643287436078" duration="401000" />
+      <workItem from="1650998856505" duration="3000" />
     </task>
     <servers />
   </component>
