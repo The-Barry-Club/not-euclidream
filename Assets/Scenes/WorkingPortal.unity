@@ -265,7 +265,7 @@ GameObject:
   - component: {fileID: 350174133}
   - component: {fileID: 350174132}
   - component: {fileID: 350174131}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: plane (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -382,6 +382,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70c4c62a8fc475e4c9c0fb6243506c33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  players: []
   playerCamera: {fileID: 396539196}
   portal: {fileID: 147434740}
   otherPortal: {fileID: 484454072}
@@ -869,6 +870,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70c4c62a8fc475e4c9c0fb6243506c33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  players: []
   playerCamera: {fileID: 396539196}
   portal: {fileID: 484454072}
   otherPortal: {fileID: 147434740}
@@ -2232,7 +2234,7 @@ GameObject:
   - component: {fileID: 2122660624}
   - component: {fileID: 2122660623}
   - component: {fileID: 2122660622}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}

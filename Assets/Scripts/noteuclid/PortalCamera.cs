@@ -19,7 +19,7 @@ public class PortalCamera : MonoBehaviour
     void Update()
     {
         players = GameObject.FindGameObjectsWithTag("Player");
-        playerCamera = players[0].transform;
+        playerCamera = players[0].GetComponentInChildren<Camera>().transform;
 
         Vector3 playerOffsetFromPortal = playerCamera.position - otherPortal.position;
         transform.position = portal.position + playerOffsetFromPortal;
