@@ -44,45 +44,46 @@ public class Keybind : MonoBehaviour
     //UP
     public void InputUp()
     {
-        ControlsScene.SetActive(false);
+        /*ControlsScene.SetActive(false);
         WaitPopup.SetActive(true);
         bool notyetup = true;
         while (notyetup)
-        {for (int i = 0; i < keez.Count; i++)
+        {*/for (int i = 0; i < keez.Count; i++)
         {
             if (Input.GetKey(keez[i]))
             {
                 PlayerPrefs.SetInt("Up", i);
-                notyetup = false;
+                //notyetup = false;
                 break;
             }
-        }}
+        }/*}
         WaitPopup.SetActive(false);
-        ControlsScene.SetActive(true);
+        ControlsScene.SetActive(true);*/
     }
     
     //DOWN
     public void InputDown()
     {
-        ControlsScene.SetActive(false);
+        /*ControlsScene.SetActive(false);
         WaitPopup.SetActive(true);
         bool notyetdown = true;
         while (notyetdown)
-        {for (int i = 0; i < keez.Count; i++)
+        {*/for (int i = 0; i < keez.Count; i++)
         {
             if (Input.GetKey(keez[i]))
             {
                 PlayerPrefs.SetInt("Down", i);
-                notyetdown = false;
+                //notyetdown = false;
                 break;
             }
-        }}
+        }/*}
         WaitPopup.SetActive(false);
-        ControlsScene.SetActive(true);
+        ControlsScene.SetActive(true);*/
     }
     
     //RIGHT
-    private void GetInputRight()
+    
+    /*private void GetInputRight()
     {
         bool answer = true;
         for (int i = 0; i < keez.Count; i++) 
@@ -99,77 +100,89 @@ public class Keybind : MonoBehaviour
         {
             GetInputRight();
         };
-    }
+    }*/
     
     public void InputRight()
     {
+        /*
         ControlsScene.SetActive(false);
         WaitPopup.SetActive(true);
 
         GetInputRight();
         
         WaitPopup.SetActive(false);
-        ControlsScene.SetActive(true);
+        ControlsScene.SetActive(true);*/
+        
+        for (int i = 0; i < keez.Count; i++) 
+        { 
+            if (Input.GetKey(keez[i])) 
+            { 
+                PlayerPrefs.SetInt("Right", i);
+                //answer = false;
+                break; 
+            } 
+        }
+        
     }
 
     //LEFT
     public void InputLeft()
     {
-        ControlsScene.SetActive(false);
+        /*ControlsScene.SetActive(false);
         WaitPopup.SetActive(true);
         bool notyetleft = true;
         while (notyetleft)
-        {for (int i = 0; i < keez.Count; i++)
+        {*/for (int i = 0; i < keez.Count; i++)
         {
             if (Input.GetKey(keez[i]))
             {
                 PlayerPrefs.SetInt("Left", i);
-                notyetleft = false;
+                //notyetleft = false;
                 break;
             }
-        }}
+        }/*}
         WaitPopup.SetActive(false);
-        ControlsScene.SetActive(true);
+        ControlsScene.SetActive(true);*/
     }
 
     //JUMP
     public void InputJump()
     {
-        ControlsScene.SetActive(false);
+        /*ControlsScene.SetActive(false);
         WaitPopup.SetActive(true);
         bool notyetjump = true;
         while (notyetjump)
-        {for (int i = 0; i < keez.Count; i++)
+        {*/for (int i = 0; i < keez.Count; i++)
         {
             if (Input.GetKey(keez[i]))
             {
                 PlayerPrefs.SetInt("Jump", i);
-                notyetjump = false;
+                //notyetjump = false;
                 break;
             }
-        }}
+        }/*}
         WaitPopup.SetActive(false);
-        ControlsScene.SetActive(true);
+        ControlsScene.SetActive(true);*/
     }
     
     //Interact
     public void InputInteract()
     {
-        ControlsScene.SetActive(false);
+        /*ControlsScene.SetActive(false);
         WaitPopup.SetActive(true);
         bool notyetinteract = true;
         while (notyetinteract)
-        {for (int i = 0; i < keez.Count; i++)
+        {*/for (int i = 0; i < keez.Count; i++)
         {
             if (Input.GetKey(keez[i]))
             {
                 PlayerPrefs.SetInt("Interact", i);
-                notyetinteract = false;
+                //notyetinteract = false;
                 break;
             }
-        }}
+        }/*}
         WaitPopup.SetActive(false);
-        ControlsScene.SetActive(true);
+        ControlsScene.SetActive(true);*/
     }
     
     void Update()

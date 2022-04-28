@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5368316-add3-4e97-885c-105688b07b8b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Materials/noteuclid/camera1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../../Materials/noteuclid/camera1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Materials/noteuclid/camera1Room1enter.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../../Materials/noteuclid/camera1Room1enter.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Materials/noteuclid/camera1Room1exit.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../../Materials/noteuclid/camera1Room1exit.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Materials/noteuclid/camera2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../../Materials/noteuclid/camera2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Resources/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../../Resources/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scenes/MainMenu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Player.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Player.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/Main Menu/MenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Main Menu/MenuController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/PauseMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/PauseMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI/PlayerPrefs/LoadPrefs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/PlayerPrefs/LoadPrefs.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Keybind.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Keybind.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +15,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../UI/PlayerPrefs/PrefLoader.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../UI/PauseMenuSettingsController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../UI/PlayerPrefs/PrefLoader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../UI/PauseMenuSettingsController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../UI/PauseMenuSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../UI/Main Menu/MenuController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -60,6 +52,8 @@
       <workItem from="1651100287793" duration="1622000" />
       <workItem from="1651102072546" duration="3110000" />
       <workItem from="1651105254121" duration="5267000" />
+      <workItem from="1651133780223" duration="488000" />
+      <workItem from="1651134365472" duration="98000" />
     </task>
     <servers />
   </component>
