@@ -12283,6 +12283,13 @@ MonoBehaviour:
   jumpHeight: 2
   playerCamera: {fileID: 7882282717758056200}
   animator: {fileID: 2550775481395035543}
+  keez: 
+  Up: 0
+  Down: 0
+  Right: 0
+  Left: 0
+  Jump: 0
+  Interact: 0
 --- !u!114 &5952955637238279548
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -31,6 +31,16 @@ public class PlayerMovement : MonoBehaviour
     private int isWalkingBackwardsHash;
     private int isJumpingHash;
 
+    //List of keys
+    public List<KeyCode> keez = new List<KeyCode>();
+    public KeyCode Up = KeyCode.None;
+    public KeyCode Down = KeyCode.None;
+    public KeyCode Right = KeyCode.None;
+    public KeyCode Left = KeyCode.None;
+    public KeyCode Jump = KeyCode.None;
+    public KeyCode Interact = KeyCode.None;
+
+
     private void Start()
     {
         //For multiplayer
@@ -40,12 +50,32 @@ public class PlayerMovement : MonoBehaviour
         isWalkingHash = Animator.StringToHash("isWalking");
         isWalkingBackwardsHash = Animator.StringToHash("isWalkingBackwards");
         isJumpingHash = Animator.StringToHash("isWalkingBackwards");
+        
+        //Fill the list of keys
+        foreach (KeyCode k in System.Enum.GetValues(typeof(KeyCode)))
+        {
+            keez.Add(k);
+        }
+
+        Up = keez[PlayerPrefs.GetInt("Up")];
+        Down = keez[PlayerPrefs.GetInt("Down")];
+        Right = keez[PlayerPrefs.GetInt("Right")];
+        Left = keez[PlayerPrefs.GetInt("Left")];
+        Jump = keez[PlayerPrefs.GetInt("Jump")];
+        Interact = keez[PlayerPrefs.GetInt("Interact")];
 
     }
 
     // Update is called once per frame
     void Update()
     {
+        //Update Keys
+        Up = keez[PlayerPrefs.GetInt("Up")];
+        Down = keez[PlayerPrefs.GetInt("Down")];
+        Right = keez[PlayerPrefs.GetInt("Right")];
+        Left = keez[PlayerPrefs.GetInt("Left")];
+        Jump = keez[PlayerPrefs.GetInt("Jump")];
+        Interact = keez[PlayerPrefs.GetInt("Interact")];
         
         //For multiplayer
         if (view.IsMine)
@@ -57,14 +87,17 @@ public class PlayerMovement : MonoBehaviour
             
             isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
             
+            //Keys
+            
+            
             // ----- Animations --------
 
             bool isWalking = animator.GetBool(isWalkingHash);
             bool isWalkingBackwards = animator.GetBool(isWalkingBackwardsHash);
             bool isJumping = animator.GetBool(isJumpingHash);
-            bool forward = Input.GetKey("z");
-            bool backward = Input.GetKey("s");
-            bool jump = Input.GetKey("space");
+            bool forward = Input.GetKey(Up);
+            bool backward = Input.GetKey(Down);
+            bool jump = Input.GetKey(Jump);
             if(!isWalking && forward)
                 animator.SetBool(isWalkingHash,true);
             
