@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5368316-add3-4e97-885c-105688b07b8b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Materials/noteuclid/camera1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../../Materials/noteuclid/camera1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Materials/noteuclid/camera1Room1enter.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../../Materials/noteuclid/camera1Room1enter.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Materials/noteuclid/camera1Room1exit.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../../Materials/noteuclid/camera1Room1exit.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Materials/noteuclid/camera2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../../Materials/noteuclid/camera2.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Resources/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../../Resources/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Player.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Player.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI/Main Menu/MenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/Main Menu/MenuController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI/PauseMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/PauseMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI/PlayerPrefs/LoadPrefs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../UI/PlayerPrefs/LoadPrefs.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +23,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../UI/PlayerPrefs/PrefLoader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../UI/PauseMenuSettingsController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../UI/PauseMenuSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../UI/Main Menu/MenuController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Keybind.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../UI/PauseMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../UI/PlayerPrefs/LoadPrefs.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="24HVIyhZhvILGLOI0anbGUm22r5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -39,6 +57,9 @@
       <updated>1643287427106</updated>
       <workItem from="1643287436078" duration="401000" />
       <workItem from="1650998856505" duration="3000" />
+      <workItem from="1651100287793" duration="1622000" />
+      <workItem from="1651102072546" duration="3110000" />
+      <workItem from="1651105254121" duration="5267000" />
     </task>
     <servers />
   </component>
@@ -46,8 +67,19 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

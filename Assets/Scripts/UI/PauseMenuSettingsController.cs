@@ -5,23 +5,16 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
 
-public class MenuController : MonoBehaviour
+public class PauseMenuSettingsController : MonoBehaviour
 {
     //MAIN MENU
-    [Header("Levels To Load")]
-    public string _PlayGame;
-    
-    public void PlayBtn()
-    {
-        SceneManager.LoadScene(_PlayGame);
-    }
-    
-    public void Quit_YesBtn()
-    {
-        Application.Quit();
-    }
-    
-    
+    [Header("Scenes")]
+    public GameObject SettingsMenu;
+    public GameObject GraphicsPopup;
+    public GameObject SoundPopup;
+    public GameObject GameplayPopup;
+
+
     //VOLUME SETTINGS
     [Header("Volume Setting")]
     [SerializeField] private TMP_Text volumeTextValue = null; 
@@ -35,7 +28,8 @@ public class MenuController : MonoBehaviour
     public void VolumeApply()
     {
         PlayerPrefs.SetFloat("masterVolume", AudioListener.volume);
-        //StartCoroutine(Confirmation());
+        SoundPopup.SetActive(false);
+        SettingsMenu.SetActive(true);
     }
     
     public void VolumeBack()
@@ -43,6 +37,8 @@ public class MenuController : MonoBehaviour
         float volume = PlayerPrefs.GetFloat("masterVolume");
         volumeTextValue.text = volume.ToString("0.0");
         volumeSlider.value = volume;
+        SoundPopup.SetActive(false);
+        SettingsMenu.SetActive(true);
     }
     
     //GAMEPLAY SETTINGS
@@ -72,7 +68,8 @@ public class MenuController : MonoBehaviour
         }*/
 
         PlayerPrefs.SetFloat("masterSensi", mainControllerSen);
-        //StartCoroutine(Confirmation());
+        GameplayPopup.SetActive(false);
+        SettingsMenu.SetActive(true);
     }
     
     public void GameplayBack()
@@ -80,6 +77,8 @@ public class MenuController : MonoBehaviour
         float sensi = PlayerPrefs.GetFloat("masterSensi");
         controllerSenTextValue.text = sensi.ToString("0.0");
         controllerSenSlider.value = sensi;
+        GameplayPopup.SetActive(false);
+        SettingsMenu.SetActive(true);
         
         //IF WE DO THE INVERTY TOGGLE
         /*int ToggleY = PlayerPrefs.GetInt("masterInvertY");
@@ -128,7 +127,8 @@ public class MenuController : MonoBehaviour
         PlayerPrefs.SetInt("masterFullScreen", (isFullScreen ? 1 : 0));
         Screen.fullScreen = isFullScreen;
 
-        //StartCoroutine(Confirmation());
+        GraphicsPopup.SetActive(false);
+        SettingsMenu.SetActive(true);
     }
     
     public void GraphicsBack()
@@ -136,6 +136,8 @@ public class MenuController : MonoBehaviour
         float brightn = PlayerPrefs.GetFloat("masterBrightness");
         brightnessTextValue.text = brightn.ToString("0.0");
         brightnessSlider.value = brightn;
+        GraphicsPopup.SetActive(false);
+        SettingsMenu.SetActive(true);
     }
     
     //Resolution

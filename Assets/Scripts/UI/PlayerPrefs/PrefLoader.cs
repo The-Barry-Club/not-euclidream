@@ -4,12 +4,12 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class LoadPrefs : MonoBehaviour
+public class PrefLoader : MonoBehaviour
 {
     [Header("General Settings")] 
     [SerializeField] private bool canUse = false;
 
-    [SerializeField] private MenuController menuController;
+    [SerializeField] private PauseMenuSettingsController pauseMenuSettingsController;
 
     [Header("Volume Settings")] 
     [SerializeField] private TMP_Text volumeTextValue = null;
@@ -98,7 +98,7 @@ public class LoadPrefs : MonoBehaviour
 
                 controllerSenTextValue.text = localSensitivity.ToString("0");
                 controllerSenSlider.value = localSensitivity;
-                menuController.mainControllerSen = localSensitivity;
+                pauseMenuSettingsController.mainControllerSen = localSensitivity;
             }
         }
     }
