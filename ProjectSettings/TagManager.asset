@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Door
+  - Shape4D
+  - Portal
   layers:
   - Default
   - TransparentFX
