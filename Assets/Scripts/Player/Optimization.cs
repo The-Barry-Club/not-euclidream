@@ -34,12 +34,10 @@ public class Optimization : MonoBehaviour
             {
                 obj.SetActive(true);
                 obj.GetComponent<CameraRef>().cam.SetActive(true);
-                Debug.Log("Visible");
             }
             else{
                 obj.SetActive(false);
                 obj.GetComponent<CameraRef>().cam.SetActive(false);
-                Debug.Log("not visible");
             } 
         }
 
