@@ -10410,7 +10410,6 @@ GameObject:
   m_Component:
   - component: {fileID: 310177230}
   - component: {fileID: 310177232}
-  - component: {fileID: 310177231}
   m_Layer: 0
   m_Name: Spot Light (3)
   m_TagString: Untagged
@@ -10433,18 +10432,6 @@ Transform:
   m_Father: {fileID: 521316393}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
---- !u!114 &310177231
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 310177229}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &310177232
 Light:
   m_ObjectHideFlags: 0
@@ -11008,7 +10995,6 @@ GameObject:
   m_Component:
   - component: {fileID: 321313667}
   - component: {fileID: 321313669}
-  - component: {fileID: 321313668}
   m_Layer: 0
   m_Name: Spot Light
   m_TagString: Untagged
@@ -11031,18 +11017,6 @@ Transform:
   m_Father: {fileID: 1500605941}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &321313668
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 321313666}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &321313669
 Light:
   m_ObjectHideFlags: 0
@@ -11115,7 +11089,6 @@ GameObject:
   m_Component:
   - component: {fileID: 330935002}
   - component: {fileID: 330935004}
-  - component: {fileID: 330935003}
   m_Layer: 0
   m_Name: Spot Light
   m_TagString: Untagged
@@ -11138,18 +11111,6 @@ Transform:
   m_Father: {fileID: 521316393}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &330935003
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 330935001}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &330935004
 Light:
   m_ObjectHideFlags: 0
@@ -17917,7 +17878,6 @@ GameObject:
   m_Component:
   - component: {fileID: 528996777}
   - component: {fileID: 528996779}
-  - component: {fileID: 528996778}
   m_Layer: 0
   m_Name: Spot Light (1)
   m_TagString: Untagged
@@ -17940,18 +17900,6 @@ Transform:
   m_Father: {fileID: 1187698387}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 78.899, y: 32.678, z: 136.048}
---- !u!114 &528996778
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 528996776}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &528996779
 Light:
   m_ObjectHideFlags: 0
@@ -29979,7 +29927,6 @@ GameObject:
   m_Component:
   - component: {fileID: 960297825}
   - component: {fileID: 960297824}
-  - component: {fileID: 960297823}
   m_Layer: 0
   m_Name: Spot Light (2)
   m_TagString: Untagged
@@ -29987,18 +29934,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &960297823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 960297822}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &960297824
 Light:
   m_ObjectHideFlags: 0
@@ -31273,7 +31208,6 @@ GameObject:
   m_Component:
   - component: {fileID: 997954029}
   - component: {fileID: 997954031}
-  - component: {fileID: 997954030}
   m_Layer: 0
   m_Name: Spot Light (2)
   m_TagString: Untagged
@@ -31296,18 +31230,6 @@ Transform:
   m_Father: {fileID: 1500605941}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -81.015, y: 229.437, z: 207.443}
---- !u!114 &997954030
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 997954028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &997954031
 Light:
   m_ObjectHideFlags: 0
@@ -35468,7 +35390,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1112807293}
   - component: {fileID: 1112807295}
-  - component: {fileID: 1112807294}
   m_Layer: 0
   m_Name: Spot Light (1)
   m_TagString: Untagged
@@ -35491,18 +35412,6 @@ Transform:
   m_Father: {fileID: 521316393}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 78.899, y: 32.678, z: 136.048}
---- !u!114 &1112807294
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1112807292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &1112807295
 Light:
   m_ObjectHideFlags: 0
@@ -39245,7 +39154,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1208853950}
   - component: {fileID: 1208853952}
-  - component: {fileID: 1208853951}
   m_Layer: 0
   m_Name: Spot Light (2)
   m_TagString: Untagged
@@ -39268,18 +39176,6 @@ Transform:
   m_Father: {fileID: 521316393}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -81.015, y: 229.437, z: 207.443}
---- !u!114 &1208853951
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1208853949}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &1208853952
 Light:
   m_ObjectHideFlags: 0
@@ -41523,7 +41419,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1273484388}
   - component: {fileID: 1273484387}
-  - component: {fileID: 1273484386}
   m_Layer: 0
   m_Name: Spot Light
   m_TagString: Untagged
@@ -41531,18 +41426,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1273484386
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1273484385}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &1273484387
 Light:
   m_ObjectHideFlags: 0
@@ -44620,7 +44503,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1374537739}
   - component: {fileID: 1374537741}
-  - component: {fileID: 1374537740}
   m_Layer: 0
   m_Name: Spot Light (2)
   m_TagString: Untagged
@@ -44643,18 +44525,6 @@ Transform:
   m_Father: {fileID: 1187698387}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -81.015, y: 229.437, z: 207.443}
---- !u!114 &1374537740
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1374537738}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &1374537741
 Light:
   m_ObjectHideFlags: 0
@@ -47585,7 +47455,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1464856877}
   - component: {fileID: 1464856876}
-  - component: {fileID: 1464856875}
   m_Layer: 0
   m_Name: Spot Light (3)
   m_TagString: Untagged
@@ -47593,18 +47462,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1464856875
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1464856874}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &1464856876
 Light:
   m_ObjectHideFlags: 0
@@ -48041,7 +47898,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1479149714}
   - component: {fileID: 1479149716}
-  - component: {fileID: 1479149715}
   m_Layer: 0
   m_Name: Spot Light (3)
   m_TagString: Untagged
@@ -48064,18 +47920,6 @@ Transform:
   m_Father: {fileID: 1187698387}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
---- !u!114 &1479149715
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1479149713}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &1479149716
 Light:
   m_ObjectHideFlags: 0
@@ -61327,7 +61171,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1765230011}
   - component: {fileID: 1765230013}
-  - component: {fileID: 1765230012}
   m_Layer: 0
   m_Name: Spot Light (1)
   m_TagString: Untagged
@@ -61350,18 +61193,6 @@ Transform:
   m_Father: {fileID: 1500605941}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 78.899, y: 32.678, z: 136.048}
---- !u!114 &1765230012
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1765230010}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &1765230013
 Light:
   m_ObjectHideFlags: 0
@@ -73052,7 +72883,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2093830203}
   - component: {fileID: 2093830205}
-  - component: {fileID: 2093830204}
   m_Layer: 0
   m_Name: Spot Light (3)
   m_TagString: Untagged
@@ -73075,18 +72905,6 @@ Transform:
   m_Father: {fileID: 1500605941}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
---- !u!114 &2093830204
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2093830202}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!108 &2093830205
 Light:
   m_ObjectHideFlags: 0
@@ -76084,9 +75902,10 @@ GameObject:
   - component: {fileID: 3565183958760753325}
   - component: {fileID: 5226218990405582387}
   - component: {fileID: 4431910990666932972}
+  - component: {fileID: 5226218990405582388}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Portal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79069,7 +78888,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 652300153765054023}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: -0, y: 2.78, z: -0}
   m_LocalScale: {x: 145.79163, y: 276.15143, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -80894,6 +80713,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 652300153765054023}
   m_Mesh: {fileID: -5495902117074765545, guid: 8f732adacfded1243bcabe957be02a73, type: 3}
+--- !u!114 &5226218990405582388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652300153765054023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45a4c3f44fca2ae4ebd49eff4565d338, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 849653115}
 --- !u!4 &5228135952265145357
 Transform:
   m_ObjectHideFlags: 0
