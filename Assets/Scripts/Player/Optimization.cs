@@ -45,7 +45,7 @@ public class Optimization : MonoBehaviour
             } 
             */
 
-            if(IsInView(Player,obj))
+            if(IsInView(Player,obj) && Vector3.Distance(PlayerPos.position,obj.GetComponent<Transform>().position) < 20)
             {
                 Debug.Log("visible "+ obj);
                 obj.GetComponent<CameraRef>().cam.SetActive(true);
@@ -89,6 +89,8 @@ public class Optimization : MonoBehaviour
              return false;
          }
  
+
+        /*
          //Is in FOV
          if ((pointOnScreen.x < 0) || (pointOnScreen.x > Screen.width) ||
                  (pointOnScreen.y < 0) || (pointOnScreen.y > Screen.height))
@@ -96,6 +98,8 @@ public class Optimization : MonoBehaviour
              Debug.Log("OutOfBounds: " + toCheck.name);
              return false;
          }
+
+         */
  
         /* RaycastHit hit;
          Vector3 heading = toCheck.transform.position - origin.transform.position;
