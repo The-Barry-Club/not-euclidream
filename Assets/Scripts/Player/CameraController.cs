@@ -5,14 +5,23 @@ using Photon.Pun;
 
 public class CameraController : MonoBehaviour
 {
+
+
+    public GameObject cam;
+
+    public GameObject body;
+
     public float mouseSensitivity = 2f;
 
     public Transform playerBody;
 
     public Transform head;
+
+    
     
     float xRotation = 0f;
 
+    
     
     
     // Start is called before the first frame update
@@ -20,12 +29,16 @@ public class CameraController : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+
+
+        
         
     }
 
     // Update is called once per frame
     void Update()
     {
+
         //Camera rotation
             float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity;
             float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity;
