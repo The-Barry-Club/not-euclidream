@@ -37,7 +37,7 @@ public class Portal : MonoBehaviour {
                 
         }
 
-        //playerCam = players[0].GetComponentInChildren<Camera>();
+        playerCam = Camera.main;
         portalCam = GetComponentInChildren<Camera> ();
         portalCam.enabled = false;
         trackedTravellers = new List<PortalTraveller> ();
@@ -128,6 +128,7 @@ public class Portal : MonoBehaviour {
         for (int i = startIndex; i < recursionLimit; i++) {
             portalCam.transform.SetPositionAndRotation (renderPositions[i], renderRotations[i]);
             SetNearClipPlane ();
+            playerCam = Camera.main;
             HandleClipping ();
             portalCam.Render ();
 
@@ -216,6 +217,7 @@ public class Portal : MonoBehaviour {
 
     // Sets the thickness of the portal screen so as not to clip with camera near plane when player goes through
     float ProtectScreenFromClipping (Vector3 viewPoint) {
+        playerCam = Camera.main;
         float halfHeight = playerCam.nearClipPlane * Mathf.Tan (playerCam.fieldOfView * 0.5f * Mathf.Deg2Rad);
         float halfWidth = halfHeight * playerCam.aspect;
         float dstToNearClipPlaneCorner = new Vector3 (halfWidth, halfHeight, playerCam.nearClipPlane).magnitude;

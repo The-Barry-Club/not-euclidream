@@ -14298,7 +14298,6 @@ GameObject:
   - component: {fileID: 1904947512012557490}
   - component: {fileID: 9090525142873095691}
   - component: {fileID: 8775676140455422388}
-  - component: {fileID: 3032536755581200237}
   - component: {fileID: 844796129826273459}
   m_Layer: 0
   m_Name: Main Camera
@@ -14442,22 +14441,6 @@ MonoBehaviour:
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
---- !u!114 &3032536755581200237
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7882282717758056200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbe747e637167114d90f1e26b4652d28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 7882282717758056202}
-  PlayerPos: {fileID: 7882282718378723303}
-  Player: {fileID: 7882282718378723301}
-  portalList: []
 --- !u!114 &844796129826273459
 MonoBehaviour:
   m_ObjectHideFlags: 0
