@@ -303,7 +303,6 @@ public class Portal : MonoBehaviour {
     }
 
     void OnTriggerEnter (Collider other) {
-        Debug.Log(other + " other");
         var traveller = other.GetComponent<PortalTraveller> ();
         if (traveller) {
             OnTravellerEnterPortal (traveller);

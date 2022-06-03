@@ -342,10 +342,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70c4c62a8fc475e4c9c0fb6243506c33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  players: []
   playerCamera: {fileID: 334787999}
   portal: {fileID: 225888430}
   otherPortal: {fileID: 648312882}
-  players: []
 --- !u!1 &225888429
 GameObject:
   m_ObjectHideFlags: 0
@@ -1573,6 +1573,10 @@ PrefabInstance:
     - target: {fileID: 2340922037324802203, guid: 3283561ca30768844b0114aca0426c55, type: 3}
       propertyPath: sceneViewId
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3953116390877980573, guid: 3283561ca30768844b0114aca0426c55, type: 3}
+      propertyPath: sceneViewId
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5952955637238279548, guid: 3283561ca30768844b0114aca0426c55, type: 3}
       propertyPath: sceneViewId
