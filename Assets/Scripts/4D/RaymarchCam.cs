@@ -95,9 +95,25 @@ public class RaymarchCam : SceneViewFilter
     public List<Shape4D> orderedShapes = new List<Shape4D>();
 
 
+   
+
+
     public void Update()
     {
-        Vector3 objectScale = wpos.transform.localScale;
+
+        foreach(var player in GameObject.FindGameObjectsWithTag("Player") ){
+
+            if(!player.GetComponent<PhotonView>().IsMine)
+                player.GetComponentInChildren<Canvas>().enabled = false;
+
+
+        }
+
+
+
+
+        if(wpos.GetComponent<PhotonView>().IsMine){
+            Vector3 objectScale = wpos.transform.localScale;
         if ((Input.GetAxis("Mouse ScrollWheel") > 0f || Input.GetKeyDown("o")) && _wPosition < 10 ) // forward
         {
             _wPosition++;
@@ -109,6 +125,8 @@ public class RaymarchCam : SceneViewFilter
            wpos.transform.localScale = new Vector3(objectScale.x-0.025f,  objectScale.y, objectScale.z);
 
         }
+        }
+        
     }
 
     // the main function that sends the data to the shader
