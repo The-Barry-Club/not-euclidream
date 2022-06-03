@@ -19,7 +19,8 @@ public class PlayerMovement : MonoBehaviour
     public float jumpHeight = 3f;
 
     Vector3 velocity;
-    private bool isGrounded;
+    public bool isGrounded;
+    public static bool IsGrounded { set; get; }
 
     //For multiplayer
     private PhotonView view;
