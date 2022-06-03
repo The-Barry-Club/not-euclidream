@@ -138,9 +138,12 @@ namespace Unity.Mathematics
                 {
                     Debug.Log("hit" + i);
                     nrHits++;
+                    PlayerMovement.IsGrounded = true;
+
                     //collision
                     //transform.Translate(ro[i].forward * d * 1.5f, Space.World);
-                    controller.Move(ro[i].forward * d * 0.5f);
+                    
+                    controller.Move(ro[i].forward * d);
 
                 }
 
