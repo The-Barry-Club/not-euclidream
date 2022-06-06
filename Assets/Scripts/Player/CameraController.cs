@@ -21,6 +21,8 @@ public class CameraController : MonoBehaviour
     
     float xRotation = 0f;
 
+    public Camera cam;
+
     
     
     
@@ -29,12 +31,16 @@ public class CameraController : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+<<<<<<< HEAD
 
 
         if(cam.GetComponent<PhotonView>().IsMine)
             body.SetActive(false);
         
         
+=======
+        cam.depthTextureMode = DepthTextureMode.Depth;
+>>>>>>> 61b8f0be (4D SUR BUILD)
     }
 
     // Update is called once per frame

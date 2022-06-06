@@ -14479,6 +14479,7 @@ MonoBehaviour:
   mouseSensitivity: 2
   playerBody: {fileID: 7882282718378723303}
   head: {fileID: 8140842350289507804}
+  cam: {fileID: 7882282717758056202}
 --- !u!114 &9090525142873095691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14648,6 +14649,7 @@ MonoBehaviour:
   gravity: -20
   jumpHeight: 2
   isGrounded: 0
+  isGrounded4d: 0
   playerCamera: {fileID: 7882282717758056200}
   animator: {fileID: 2550775481395035543}
   keez: 
