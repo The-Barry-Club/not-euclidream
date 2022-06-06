@@ -31,8 +31,6 @@ public class CameraController : MonoBehaviour
         Cursor.visible = false;
 
 
-        if(cam.GetComponent<PhotonView>().IsMine)
-            body.SetActive(false);
         
         
     }
