@@ -13,6 +13,8 @@ public class CameraController : MonoBehaviour
     
     float xRotation = 0f;
 
+    public Camera cam;
+
     
     
     // Start is called before the first frame update
@@ -20,7 +22,7 @@ public class CameraController : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-        
+        cam.depthTextureMode = DepthTextureMode.Depth;
     }
 
     // Update is called once per frame
