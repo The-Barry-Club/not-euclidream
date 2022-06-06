@@ -19,6 +19,7 @@ namespace Unity.Mathematics
 
         private DistanceFunctions Df;
         private RaymarchCam camScript;
+        private PlayerMovement pm;
 
         public Camera _camera;
 
@@ -31,6 +32,7 @@ namespace Unity.Mathematics
             camScript = _camera.GetComponent<RaymarchCam>();
             Df = GetComponent<DistanceFunctions>();
             controller = GetComponent<CharacterController>();
+            pm = GetComponent<PlayerMovement>();
         }
         
         // Update is called once per frame
@@ -125,7 +127,7 @@ namespace Unity.Mathematics
         void RayMarch(Transform[] ro)
         {
 
-            int nrHits = 0;
+            bool pr = false;
 
             for (int i = 0; i < ro.Length; i++)
             {
@@ -136,19 +138,19 @@ namespace Unity.Mathematics
 
                 if (d < 0) //hit
                 {
+                    pr = true;
                     Debug.Log("hit" + i);
-                    nrHits++;
-                    PlayerMovement.IsGrounded = true;
+                    pm.isGrounded4d = true;
 
                     //collision
                     //transform.Translate(ro[i].forward * d * 1.5f, Space.World);
-                    
-                    controller.Move(ro[i].forward * d);
+
+                    controller.Move(ro[i].forward * d * 0.5f);
 
                 }
-
-
             }
+            if (!pr)
+                pm.isGrounded4d = false;
         }
 
         //moves the player to the ground
