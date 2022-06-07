@@ -25,20 +25,29 @@ namespace Unity.Mathematics
 
         private CharacterController controller;
 
+        public bool isPlayer = false;
+        public GameObject obj;
+
 
         // Start is called before the first frame update
         void Start()
         {
             camScript = _camera.GetComponent<RaymarchCam>();
             Df = GetComponent<DistanceFunctions>();
-            controller = GetComponent<CharacterController>();
-            pm = GetComponent<PlayerMovement>();
+            if (obj.tag == "Player")
+            {
+                pm = GetComponent<PlayerMovement>();
+                controller = GetComponent<CharacterController>();
+                isPlayer = true;
+            }
+                
         }
         
         // Update is called once per frame
         void Update()
         {
-            //MoveToGround();
+            if (!isPlayer)
+                MoveToGround();
             RayMarch(rayMarchTransforms);
             
         }
@@ -140,16 +149,20 @@ namespace Unity.Mathematics
                 {
                     pr = true;
                     Debug.Log("hit" + i);
-                    pm.isGrounded4d = true;
 
                     //collision
                     //transform.Translate(ro[i].forward * d * 1.5f, Space.World);
 
-                    controller.Move(ro[i].forward * d * 0.5f);
-
+                    if (isPlayer)
+                    {
+                        pm.isGrounded4d = true;
+                        controller.Move(ro[i].forward * d * 0.5f);
+                    }
+                    else
+                        transform.Translate(ro[i].forward * d * 1.5f, Space.World);
                 }
             }
-            if (!pr)
+            if (!pr && isPlayer)
                 pm.isGrounded4d = false;
         }
 

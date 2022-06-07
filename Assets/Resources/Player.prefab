@@ -890,7 +890,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.00012207031, y: -0.000030517578}
+  m_AnchoredPosition: {x: -0.00012207031, y: 0}
   m_SizeDelta: {x: 819, y: 464.9182}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3585632227437447734
@@ -8269,7 +8269,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.00012207031, y: -0.000030517578}
+  m_AnchoredPosition: {x: -0.00012207031, y: 0}
   m_SizeDelta: {x: 819, y: 464.9182}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8454805498528964118
@@ -8395,7 +8395,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.00012207031, y: -0.000030517578}
+  m_AnchoredPosition: {x: -0.00012207031, y: 0}
   m_SizeDelta: {x: 819, y: 464.9182}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &770374275186820992
@@ -14839,6 +14839,8 @@ MonoBehaviour:
   - {fileID: 2877600109162973987}
   - {fileID: 5865090157940257968}
   _camera: {fileID: 7882282717758056202}
+  isPlayer: 0
+  obj: {fileID: 7882282718378723301}
 --- !u!114 &4796723305691904517
 MonoBehaviour:
   m_ObjectHideFlags: 0
