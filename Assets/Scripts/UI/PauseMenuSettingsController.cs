@@ -27,7 +27,7 @@ public class PauseMenuSettingsController : MonoBehaviour
     public void VolumeApply()
     {
         PlayerPrefs.SetFloat("masterVolume", AudioListener.volume);
-        PlayerPrefs.SetString("sceneloaded", "settings");
+        PlayerPrefs.SetInt("sceneloaded", 1);
         SoundPopup.SetActive(false);
         SettingsMenu.SetActive(true);
     }
@@ -35,7 +35,7 @@ public class PauseMenuSettingsController : MonoBehaviour
     public void VolumeBack()
     {
         float volume = PlayerPrefs.GetFloat("masterVolume");
-        PlayerPrefs.SetString("sceneloaded", "settings");
+        PlayerPrefs.SetInt("sceneloaded", 1);
         volumeTextValue.text = volume.ToString("0.0");
         volumeSlider.value = volume;
         SoundPopup.SetActive(false);
@@ -69,7 +69,7 @@ public class PauseMenuSettingsController : MonoBehaviour
         }*/
 
         PlayerPrefs.SetFloat("masterSensi", mainControllerSen);
-        PlayerPrefs.SetString("sceneloaded", "settings");
+        PlayerPrefs.SetInt("sceneloaded", 1);
         GameplayPopup.SetActive(false);
         SettingsMenu.SetActive(true);
     }
@@ -77,7 +77,7 @@ public class PauseMenuSettingsController : MonoBehaviour
     public void GameplayBack()
     {
         float sensi = PlayerPrefs.GetFloat("masterSensi");
-        PlayerPrefs.SetString("sceneloaded", "settings");
+        PlayerPrefs.SetInt("sceneloaded", 1);
         controllerSenTextValue.text = sensi.ToString("0.0");
         controllerSenSlider.value = sensi;
         GameplayPopup.SetActive(false);
@@ -130,7 +130,7 @@ public class PauseMenuSettingsController : MonoBehaviour
         PlayerPrefs.SetInt("masterFullScreen", (isFullScreen ? 1 : 0));
         Screen.fullScreen = isFullScreen;
         
-        PlayerPrefs.SetString("sceneloaded", "settings");
+        PlayerPrefs.SetInt("sceneloaded", 1);
 
         GraphicsPopup.SetActive(false);
         SettingsMenu.SetActive(true);
@@ -139,7 +139,7 @@ public class PauseMenuSettingsController : MonoBehaviour
     public void GraphicsBack()
     {
         float brightn = PlayerPrefs.GetFloat("masterBrightness");
-        PlayerPrefs.SetString("sceneloaded", "settings");
+        PlayerPrefs.SetInt("sceneloaded", 1);
         brightnessTextValue.text = brightn.ToString("0.0");
         brightnessSlider.value = brightn;
         GraphicsPopup.SetActive(false);

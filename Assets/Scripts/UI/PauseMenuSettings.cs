@@ -26,35 +26,15 @@ public class PauseMenuSettings : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             int scene = PlayerPrefs.GetInt("sceneloaded");
-            switch (scene)
+            if (scene == 1)
             {
-                case 2:
-                    GraphicsPopup.SetActive(false);
-                    SettingsMenu.SetActive(true);
-                    PlayerPrefs.SetInt("sceneloaded", 1);
-                    break;
-                case 3:
-                    SoundPopup.SetActive(false);
-                    SettingsMenu.SetActive(true);
-                    PlayerPrefs.SetInt("sceneloaded", 1);
-                    break;
-                case 4:
-                    GameplayPopup.SetActive(false);
-                    SettingsMenu.SetActive(true);
-                    PlayerPrefs.SetInt("sceneloaded", 1);
-                    break;
-                case 41:
-                    ControlsScene.SetActive(false);
-                    SettingsMenu.SetActive(true);
-                    PlayerPrefs.SetInt("sceneloaded", 1);
-                    break;
-                case 1:
-                    SettingsMenu.SetActive(false);
-                    pauseMenuUI.SetActive(true);
-                    PlayerPrefs.SetInt("sceneloaded", 0);
-                    break;
-                default:
-                    break;
+                SettingsMenu.SetActive(false);
+                pauseMenuUI.SetActive(true);
+                PlayerPrefs.SetInt("sceneloaded", 0);
+            }
+            else
+            {
+                
             }
         }
     }
