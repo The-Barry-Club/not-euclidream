@@ -9,7 +9,7 @@ using Photon.Pun;
 public class PauseMenu : MonoBehaviour
 {
     public static bool GameIsPaused = false;
-    
+
     //THE MENU
     //[Header("Levels To Load")]
     //public string _MainMenu;
@@ -19,7 +19,6 @@ public class PauseMenu : MonoBehaviour
     public GameObject MainMenuPopup;
     public GameObject QuitPopup;
     public GameObject SettingsMenu;
-    
 
     //UPDATE
     void Update()
@@ -28,7 +27,11 @@ public class PauseMenu : MonoBehaviour
         {
             if (GameIsPaused)
             {
-                Resume();
+                int scine = PlayerPrefs.GetInt("sceneloaded");
+                if (scine == 0)
+                {
+                    ResumeGame();
+                }
             }
             else
             {
@@ -36,17 +39,19 @@ public class PauseMenu : MonoBehaviour
             }
         }
     }
-
-    public void Resume()
+    
+    public void ResumeGame()
     {
         pauseMenuUI.SetActive(false);
         GameIsPaused = false;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        PlayerPrefs.SetInt("sceneloaded", -1);
     }
 
     void Pause()
     {
+        PlayerPrefs.SetInt("sceneloaded", 0);
         pauseMenuUI.SetActive(true);
         GameIsPaused = true;
         Cursor.visible = true;
@@ -58,12 +63,14 @@ public class PauseMenu : MonoBehaviour
     {
         pauseMenuUI.SetActive(false);
         MainMenuPopup.SetActive(true);
+        PlayerPrefs.SetInt("sceneloaded", 20);
     }
     
     public void MainMenuYesBtn()
     {
         PhotonNetwork.Disconnect();
         PhotonNetwork.LoadLevel("MainMenu");
+        PlayerPrefs.SetInt("sceneloaded", -1);
         //SceneManager.LoadScene(_MainMenu);
     }
 
@@ -71,6 +78,7 @@ public class PauseMenu : MonoBehaviour
     {
         MainMenuPopup.SetActive(false);
         pauseMenuUI.SetActive(true);
+        PlayerPrefs.SetInt("sceneloaded", 0);
     }
     
     //SETTINGS BTN
@@ -78,12 +86,14 @@ public class PauseMenu : MonoBehaviour
     {
         pauseMenuUI.SetActive(false);
         SettingsMenu.SetActive(true);
+        PlayerPrefs.SetInt("sceneloaded", 1);
     }
 
     public void ExitSettings()
     {
         SettingsMenu.SetActive(false);
         pauseMenuUI.SetActive(true);
+        PlayerPrefs.SetInt("sceneloaded", 0);
     }
 
     //QUIT BTN
@@ -91,9 +101,11 @@ public class PauseMenu : MonoBehaviour
     {
         pauseMenuUI.SetActive(false);
         QuitPopup.SetActive(true);
+        PlayerPrefs.SetInt("sceneloaded", 22);
     }
     public void Quit_YesBtn()
     {
+        PlayerPrefs.SetInt("sceneloaded", -1);
         Application.Quit();
     }
     
@@ -101,6 +113,7 @@ public class PauseMenu : MonoBehaviour
     {
         QuitPopup.SetActive(false);
         pauseMenuUI.SetActive(true);
+        PlayerPrefs.SetInt("sceneloaded", 0);
     }
 
 

@@ -13,8 +13,7 @@ public class PauseMenuSettingsController : MonoBehaviour
     public GameObject GraphicsPopup;
     public GameObject SoundPopup;
     public GameObject GameplayPopup;
-
-
+    
     //VOLUME SETTINGS
     [Header("Volume Setting")]
     [SerializeField] private TMP_Text volumeTextValue = null; 
@@ -28,6 +27,7 @@ public class PauseMenuSettingsController : MonoBehaviour
     public void VolumeApply()
     {
         PlayerPrefs.SetFloat("masterVolume", AudioListener.volume);
+        PlayerPrefs.SetString("sceneloaded", "settings");
         SoundPopup.SetActive(false);
         SettingsMenu.SetActive(true);
     }
@@ -35,6 +35,7 @@ public class PauseMenuSettingsController : MonoBehaviour
     public void VolumeBack()
     {
         float volume = PlayerPrefs.GetFloat("masterVolume");
+        PlayerPrefs.SetString("sceneloaded", "settings");
         volumeTextValue.text = volume.ToString("0.0");
         volumeSlider.value = volume;
         SoundPopup.SetActive(false);
@@ -68,6 +69,7 @@ public class PauseMenuSettingsController : MonoBehaviour
         }*/
 
         PlayerPrefs.SetFloat("masterSensi", mainControllerSen);
+        PlayerPrefs.SetString("sceneloaded", "settings");
         GameplayPopup.SetActive(false);
         SettingsMenu.SetActive(true);
     }
@@ -75,6 +77,7 @@ public class PauseMenuSettingsController : MonoBehaviour
     public void GameplayBack()
     {
         float sensi = PlayerPrefs.GetFloat("masterSensi");
+        PlayerPrefs.SetString("sceneloaded", "settings");
         controllerSenTextValue.text = sensi.ToString("0.0");
         controllerSenSlider.value = sensi;
         GameplayPopup.SetActive(false);
@@ -126,6 +129,8 @@ public class PauseMenuSettingsController : MonoBehaviour
 
         PlayerPrefs.SetInt("masterFullScreen", (isFullScreen ? 1 : 0));
         Screen.fullScreen = isFullScreen;
+        
+        PlayerPrefs.SetString("sceneloaded", "settings");
 
         GraphicsPopup.SetActive(false);
         SettingsMenu.SetActive(true);
@@ -134,6 +139,7 @@ public class PauseMenuSettingsController : MonoBehaviour
     public void GraphicsBack()
     {
         float brightn = PlayerPrefs.GetFloat("masterBrightness");
+        PlayerPrefs.SetString("sceneloaded", "settings");
         brightnessTextValue.text = brightn.ToString("0.0");
         brightnessSlider.value = brightn;
         GraphicsPopup.SetActive(false);

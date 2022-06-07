@@ -44,21 +44,21 @@ public class Keybind : MonoBehaviour
     //UP
     public void InputUp()
     {
-        /*ControlsScene.SetActive(false);
+        ControlsScene.SetActive(false);
         WaitPopup.SetActive(true);
         bool notyetup = true;
         while (notyetup)
-        {*/for (int i = 0; i < keez.Count; i++)
+        {for (int i = 0; i < keez.Count; i++)
         {
             if (Input.GetKey(keez[i]))
             {
                 PlayerPrefs.SetInt("Up", i);
-                //notyetup = false;
+                notyetup = false;
                 break;
             }
-        }/*}
+        }}
         WaitPopup.SetActive(false);
-        ControlsScene.SetActive(true);*/
+        ControlsScene.SetActive(true);
     }
     
     //DOWN

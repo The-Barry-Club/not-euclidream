@@ -7,7 +7,7 @@ using TMPro;
 public class PrefLoader : MonoBehaviour
 {
     [Header("General Settings")] 
-    [SerializeField] private bool canUse = false;
+    //[SerializeField] private bool canUse = false;
 
     [SerializeField] private PauseMenuSettingsController pauseMenuSettingsController;
 
@@ -37,8 +37,8 @@ public class PrefLoader : MonoBehaviour
 
     public void Start()
     {
-        if (canUse)
-        {
+        //if (canUse)
+        //{
             //VOLUME
             if (PlayerPrefs.HasKey("masterVolume"))
             {
@@ -92,14 +92,14 @@ public class PrefLoader : MonoBehaviour
             }
             
             //SENSITIVITY
-            if (PlayerPrefs.HasKey("masterSen"))
+            if (PlayerPrefs.HasKey("masterSensi"))
             {
-                float localSensitivity = PlayerPrefs.GetFloat("masterSen");
+                float localSensitivity = PlayerPrefs.GetFloat("masterSensi");
 
                 controllerSenTextValue.text = localSensitivity.ToString("0");
                 controllerSenSlider.value = localSensitivity;
                 pauseMenuSettingsController.mainControllerSen = localSensitivity;
             }
-        }
+       // }
     }
 }
