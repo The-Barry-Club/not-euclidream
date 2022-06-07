@@ -8,6 +8,9 @@ TagManager:
   - Shape4D
   - Portal
   - PortalNew
+  - Ennemy
+  - PointA
+  - PointB
   layers:
   - Default
   - TransparentFX
@@ -18,7 +21,7 @@ TagManager:
   - Ground
   - Trigger
   - PlayerBody
-  - 
+  - GroundAI
   - 
   - 
   - 
