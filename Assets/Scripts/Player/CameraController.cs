@@ -7,7 +7,7 @@ public class CameraController : MonoBehaviour
 {
 
 
-    public GameObject cam;
+    public GameObject came;
 
     public GameObject body;
 
@@ -31,16 +31,12 @@ public class CameraController : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-<<<<<<< HEAD
-
-
-        if(cam.GetComponent<PhotonView>().IsMine)
+        if(came.GetComponent<PhotonView>().IsMine)
             body.SetActive(false);
         
-        
-=======
+
         cam.depthTextureMode = DepthTextureMode.Depth;
->>>>>>> 61b8f0be (4D SUR BUILD)
+
     }
 
     // Update is called once per frame

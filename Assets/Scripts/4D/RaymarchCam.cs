@@ -129,7 +129,6 @@ public class RaymarchCam : SceneViewFilter
         
     }
 
-    // the main function that sends the data to the shader
     private void OnRenderImage(RenderTexture source, RenderTexture destination)
     {
         buffersToDispose = new List<ComputeBuffer>();
