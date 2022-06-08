@@ -8,10 +8,14 @@ TagManager:
   - Shape4D
   - Portal
   - PortalNew
+<<<<<<< HEAD
   - Ennemy
   - PointA
   - PointB
   - DestinationTP
+=======
+  - Check
+>>>>>>> ab940147 (lvl init)
   layers:
   - Default
   - TransparentFX
