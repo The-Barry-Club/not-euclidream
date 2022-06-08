@@ -45,7 +45,7 @@ public class EnemyScript : MonoBehaviour
         {
             //Je calcul la distance :
             float dist = Vector3.Distance(player.transform.position,ennemy.position);
-            Debug.Log("DIST : " +dist);
+            //Debug.Log("DIST : " +dist);
             //J'add dans les listes
             if(dist < InnerRange) listPDinner.Add((dist,player));
             if(dist < OuterRange) listPDouter.Add((dist,player));

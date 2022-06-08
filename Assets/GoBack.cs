@@ -13,7 +13,6 @@ public class GoBack : MonoBehaviour
    
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other);
         if(dir == "PointA"){
 
             if(other.tag == "Ennemy" && other.GetComponent<EnemyScript>().outer == null )
