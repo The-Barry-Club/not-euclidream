@@ -12,10 +12,16 @@ public class EnemyScript : MonoBehaviour
 
     public Transform ennemy;
 
-    bool toPointA = true;
-    bool toPointB = false;
 
     public NavMeshAgent agent;
+
+    public GameObject inner = null;
+    public GameObject outer = null;
+
+    public bool Once = false;
+
+    public int InnerRange = 0;
+    public int OuterRange = 0;
 
 
 
@@ -24,42 +30,101 @@ public class EnemyScript : MonoBehaviour
    {
        agent = GetComponent<NavMeshAgent>();
        ennemy = GetComponent<Transform>();
+       GoPointA();
    } 
 
     // Update is called once per frame
     void Update()
     {
 
-        if(toPointA){
-            //transform.LookAt(PointA);
-            Vector3 destination = new Vector3(PointA.position.x,ennemy.position.y,PointA.position.z);
-            agent.SetDestination(destination);
+        //Get list of player sorted by distance
+        GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
+        List<(float,GameObject)> listPDinner = new List<(float,GameObject)>();
+        List<(float,GameObject)> listPDouter = new List<(float,GameObject)>();
+        foreach(var player in players)
+        {
+            //Je calcul la distance :
+            float dist = Vector3.Distance(player.transform.position,ennemy.position);
+            Debug.Log("DIST : " +dist);
+            //J'add dans les listes
+            if(dist < InnerRange) listPDinner.Add((dist,player));
+            if(dist < OuterRange) listPDouter.Add((dist,player));
+            
+        }
+
+        if(listPDinner.Count>0) listPDinner.Sort((a, b) => a.Item1.CompareTo(b.Item1));
+        if(listPDouter.Count>0) listPDouter.Sort((a, b) => a.Item1.CompareTo(b.Item1));
+
+        //Je cherche si inner
+
+        int i = 0;
+        inner = null;
+        while (i<listPDinner.Count && inner == null)
+        {
+            if(listPDinner[i].Item1 < InnerRange)
+            {
+                inner = listPDinner[i].Item2;
+            }
+            i++;
+        }
+
+
+        if(inner != null)
+        {
+            outer = inner;
+            Once = true;
         } 
-        else if(toPointB){
-            //transform.LookAt(PointB);
-            Vector3 destination = new Vector3(PointB.position.x,ennemy.position.y,PointB.position.z);
+
+        if(listPDouter.Count == 0) outer = null;
+
+        if(outer)
+        {
+           
+            
+            Vector3 destination = new Vector3(outer.GetComponent<Transform>().position.x,ennemy.position.y,outer.GetComponent<Transform>().position.z);
             agent.SetDestination(destination);
-        } 
+
+
+            var dir = outer.GetComponent<Transform>().position - ennemy.position;
+            Quaternion LookAtRotation = Quaternion.LookRotation(dir);
+            Quaternion LookAtRotationOnly_Y = Quaternion.Euler(transform.rotation.eulerAngles.x, LookAtRotation.eulerAngles.y, transform.rotation.eulerAngles.z);
+            ennemy.rotation = LookAtRotationOnly_Y;
+            
+        }
+        else{
+            if(Once){
+                GoPointA();
+                Once = false;
+            }
+            
+        }
+
+
         
 
+        
+
+        
+
+
     }
 
-
-
-
-    void OnTriggerStay(Collider other)
+    public void GoPointA()
     {
-
-        Debug.Log(other);
-        if(other.tag == "PointA"){
-            Debug.Log("collide a");
-            toPointA = false;
-            toPointB = true;
-        }
-        else if(other.tag == "PointB"){
-            Debug.Log("collide B");
-            toPointA = true;
-            toPointB = false;
-        }
+        transform.LookAt(PointA);
+            Vector3 destination = new Vector3(PointA.position.x,ennemy.position.y,PointA.position.z);
+            agent.SetDestination(destination);
     }
+
+    public void GoPointB()
+    {
+        transform.LookAt(PointB);
+            Vector3 destination = new Vector3(PointB.position.x,ennemy.position.y,PointB.position.z);
+            agent.SetDestination(destination);
+    }
+
+
+
+
+    
 }
