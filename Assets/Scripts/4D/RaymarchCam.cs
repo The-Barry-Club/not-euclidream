@@ -86,6 +86,7 @@ public class RaymarchCam : SceneViewFilter
     public Color _skyColor;
 
     public GameObject wpos ;
+    public bool waxe;
     
     
 
@@ -111,20 +112,24 @@ public class RaymarchCam : SceneViewFilter
 
 
 
-
-        if(wpos.GetComponent<PhotonView>().IsMine){
-            Vector3 objectScale = wpos.transform.localScale;
-        if ((Input.GetAxis("Mouse ScrollWheel") > 0f || Input.GetKeyDown("o")) && _wPosition < 10 ) // forward
+        if (waxe)
         {
-            _wPosition++;
-            wpos.transform.localScale = new Vector3(objectScale.x+0.025f,  objectScale.y, objectScale.z);
-        }
-        else if ((Input.GetAxis("Mouse ScrollWheel") < 0f || Input.GetKeyDown("p")) && _wPosition > -10 ) // backwards
-        {
-           _wPosition--;
-           wpos.transform.localScale = new Vector3(objectScale.x-0.025f,  objectScale.y, objectScale.z);
+            if (wpos.GetComponent<PhotonView>().IsMine)
+            {
+                Vector3 objectScale = wpos.transform.localScale;
+                if ((Input.GetAxis("Mouse ScrollWheel") > 0f || Input.GetKeyDown("o")) && _wPosition < 10) // forward
+                {
+                    _wPosition++;
+                    wpos.transform.localScale = new Vector3(objectScale.x + 0.025f, objectScale.y, objectScale.z);
+                }
+                else if ((Input.GetAxis("Mouse ScrollWheel") < 0f || Input.GetKeyDown("p")) && _wPosition > -10) // backwards
+                {
+                    _wPosition--;
+                    wpos.transform.localScale = new Vector3(objectScale.x - 0.025f, objectScale.y, objectScale.z);
 
-        }
+                }
+            }
+        
         }
         
     }
