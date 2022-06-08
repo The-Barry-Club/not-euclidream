@@ -146,7 +146,6 @@ public class PlayerMovement : MonoBehaviour
 
             if (!isGrounded4d && !isGrounded)
                 velocity.y += gravity * Time.deltaTime;
-            Debug.Log(velocity.y);
             controller.Move(velocity * Time.deltaTime);
         }
     }

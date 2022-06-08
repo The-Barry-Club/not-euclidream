@@ -18,7 +18,7 @@ public class Portal : MonoBehaviour {
     Camera portalCam;
     Camera playerCam;
     Material firstRecursionMat;
-    List<PortalTraveller> trackedTravellers;
+    public List<PortalTraveller> trackedTravellers;
     MeshFilter screenMeshFilter;
     GameObject[] players;
     GameObject myPlayer;
@@ -303,6 +303,8 @@ public class Portal : MonoBehaviour {
     }
 
     void OnTriggerEnter (Collider other) {
+        Debug.Log(other.name);
+        Debug.Log("lol");
         var traveller = other.GetComponent<PortalTraveller> ();
         if (traveller) {
             OnTravellerEnterPortal (traveller);

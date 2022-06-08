@@ -8,6 +8,7 @@ TagManager:
   - Shape4D
   - Portal
   - PortalNew
+  - Check
   layers:
   - Default
   - TransparentFX
