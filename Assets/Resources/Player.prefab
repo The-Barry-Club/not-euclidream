@@ -816,6 +816,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SettingsMenu: {fileID: 6270600794166553349}
   BackBtn: {fileID: 2303338762809261915}
+  pauseMenuUI: {fileID: 4426231466848299799}
   GraphicsPopup: {fileID: 3012552179857568642}
   SoundPopup: {fileID: 2139234966264064835}
   GameplayPopup: {fileID: 2072213979757170057}
@@ -16498,7 +16499,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7913505489875244808}
         m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
-        m_MethodName: Resume
+        m_MethodName: ResumeGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
