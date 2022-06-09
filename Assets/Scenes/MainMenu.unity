@@ -1504,7 +1504,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4111dac1c40c7b40b90a02fa5200df9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canUse: 0
   menuController: {fileID: 1562402799}
   volumeTextValue: {fileID: 1773101914}
   volumeSlider: {fileID: 1800277751}
@@ -3340,6 +3339,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 369375684}
+        m_TargetAssemblyTypeName: LoadPrefs, Assembly-CSharp
+        m_MethodName: Start
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -7759,7 +7770,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4111dac1c40c7b40b90a02fa5200df9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canUse: 0
   menuController: {fileID: 1562402799}
   volumeTextValue: {fileID: 1773101914}
   volumeSlider: {fileID: 1800277751}
