@@ -14797,7 +14797,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 127
+    m_Bits: 63
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: 50d8b9562765cfe43967968262f38147, type: 2}
   m_TargetDisplay: 0
@@ -14926,6 +14926,7 @@ GameObject:
   - component: {fileID: 4796723305691904517}
   - component: {fileID: 2612612592129897171}
   - component: {fileID: 6767854590787162827}
+  - component: {fileID: 7046227644398315533}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -14996,7 +14997,7 @@ MonoBehaviour:
   groundDistance: 0.4
   groundMask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 72
   speed: 7
   gravity: -20
   jumpHeight: 2
@@ -15234,6 +15235,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   instructions: {fileID: 2132213809451549710}
+--- !u!114 &7046227644398315533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7882282718378723301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24fb3ddac200dd644b863cf1d246a9c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  players: []
 --- !u!1 &7895085836554864412
 GameObject:
   m_ObjectHideFlags: 0

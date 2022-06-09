@@ -65,6 +65,7 @@ MonoBehaviour:
   recursionLimit: 5
   nearClipOffset: 0.05
   nearClipLimit: 0.2
+  trackedTravellers: []
 --- !u!1 &8619310365636506138
 GameObject:
   m_ObjectHideFlags: 0
@@ -212,7 +213,7 @@ Camera:
   m_Depth: -2
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 119
+    m_Bits: 63
   m_RenderingPath: 1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0

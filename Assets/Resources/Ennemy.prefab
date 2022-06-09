@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 7766494420621959752}
   - component: {fileID: 8346302567847032961}
   - component: {fileID: 5904381580436732015}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: PointA
   m_TagString: PointA
   m_Icon: {fileID: 0}
@@ -234,7 +234,7 @@ GameObject:
   - component: {fileID: 3054798719129984608}
   - component: {fileID: 1994514150902703361}
   - component: {fileID: 8075080900640760702}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: PointB
   m_TagString: PointB
   m_Icon: {fileID: 0}
