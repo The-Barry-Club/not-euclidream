@@ -9,28 +9,39 @@ using Photon.Pun;
 public class Brightness : MonoBehaviour
 {
     [Header("lights")] 
-    public Light DirectionnalLight;
-    //public Light Spot1;
-    //public Light Spot2;
-    //public Light Spot3;
-    public Light Spot4;
-    public Light Spot5;
+   
+
+
+    public Light[] lights;
+    public float[] lightsOrigin;
+
+    float oldValue = 0f;
+    float value = 0f;
     
     // Start is called before the first frame update
     void Start()
     {
-        
+        lights = FindObjectsOfType<Light>();
+        value =  PlayerPrefs.GetFloat("masterBrightness");
+        lightsOrigin = new float[lights.Length];
+        for(int i = 0; i< lights.Length;i++)
+        {
+            lightsOrigin[i] = lights[i].intensity;
+        }
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        int value = PlayerPrefs.GetInt("masterBrightness");
-        DirectionnalLight.intensity = value;
-        //Spot1.intensity = value;
-        //Spot2.intensity = value;
-        //Spot3.intensity = value;
-        Spot4.intensity = value;
-        Spot5.intensity = value;
+        oldValue = value;
+        value = PlayerPrefs.GetFloat("masterBrightness");
+        for(int i = 0; i< lights.Length;i++)
+        {
+            if(oldValue != value)
+                lights[i].intensity = lightsOrigin[i]*value;
+        }
+        
+        
     }
 }
