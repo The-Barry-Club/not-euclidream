@@ -3,23 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Door
-  - Shape4D
-  - Portal
-  - PortalNew
-<<<<<<< HEAD
-  - Ennemy
-  - PointA
-  - PointB
-  - DestinationTP
-=======
-  - Check
-<<<<<<< HEAD
->>>>>>> ab940147 (lvl init)
-=======
-  - Button
->>>>>>> e64a5add (lvl 99%)
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -27,10 +11,10 @@ TagManager:
   - 
   - Water
   - UI
-  - Ground
-  - Trigger
-  - PlayerBody
-  - GroundAI
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
