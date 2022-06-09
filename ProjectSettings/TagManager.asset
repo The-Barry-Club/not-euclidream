@@ -9,6 +9,7 @@ TagManager:
   - Portal
   - PortalNew
   - Check
+  - Button
   layers:
   - Default
   - TransparentFX
