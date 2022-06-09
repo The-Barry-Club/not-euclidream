@@ -151,6 +151,7 @@ public class Portal : MonoBehaviour {
         const float hideDst = -1000;
         const float showDst = 1000;
         playerCam = Camera.main;
+
         float screenThickness = linkedPortal.ProtectScreenFromClipping (portalCam.transform.position);
 
         foreach (var traveller in trackedTravellers) {
@@ -202,7 +203,10 @@ public class Portal : MonoBehaviour {
             UpdateSliceParams (traveller);
         }
         playerCam = Camera.main;
+        
         ProtectScreenFromClipping (playerCam.transform.position);
+        
+        
     }
     void CreateViewTexture () {
         if (viewTexture == null || viewTexture.width != Screen.width || viewTexture.height != Screen.height) {
