@@ -15396,43 +15396,6 @@ PrefabInstance:
       objectReference: {fileID: 1159600174}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 053bbc7c7a259754a9fc1e1e3eab4aa3, type: 3}
---- !u!1 &376471888 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8619310366495434166, guid: 053bbc7c7a259754a9fc1e1e3eab4aa3, type: 3}
-  m_PrefabInstance: {fileID: 376471887}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &376471889
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 376471888}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 509c7dabc11d1426a919fbec441cefb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _shader: {fileID: 4800000, guid: 8f4de6e9330b641579626ad7feb3b23e, type: 3}
-  _directionalLight: {fileID: 5175257907545452293, guid: 9cb74ef1dd789fe4d94c103ece243129, type: 3}
-  _player: {fileID: 0}
-  _precision: 0.001
-  _max_iteration: 200
-  _wRotation: {x: 0, y: 0, z: 0}
-  _wPosition: 0
-  _useNormal: 1
-  _nrOfCascades: 3
-  _lightIntensity: 0.745
-  _useShadow: 1
-  _useSoftShadow: 0
-  _shadowSoftness: 2.81
-  _maxShadowDistance: 45
-  _shadowIntensity: 0.587
-  _aoIntensity: 0
-  _skyColor: {r: 0, g: 0.9629069, b: 0.9716981, a: 0}
-  wpos: {fileID: 0}
-  _renderNr: 0
-  orderedShapes: []
 --- !u!1001 &377778845
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -77682,7 +77645,7 @@ MonoBehaviour:
   _shadowIntensity: 0.587
   _aoIntensity: 0
   _skyColor: {r: 0, g: 0.9629069, b: 0.9716981, a: 0}
-  wpos: {fileID: 0}
+  wpos: {fileID: 115838542}
   _renderNr: 0
   orderedShapes: []
 --- !u!1001 &1815705824
@@ -84851,15 +84814,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7220340402648136972, guid: 574545eca55884a07aeff49f3d3ef266, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -242.74
+      value: -248.74
       objectReference: {fileID: 0}
     - target: {fileID: 7220340402648136972, guid: 574545eca55884a07aeff49f3d3ef266, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.25
+      value: 7.45
       objectReference: {fileID: 0}
     - target: {fileID: 7220340402648136972, guid: 574545eca55884a07aeff49f3d3ef266, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -326.8
+      value: -330.39
       objectReference: {fileID: 0}
     - target: {fileID: 7220340402648136972, guid: 574545eca55884a07aeff49f3d3ef266, type: 3}
       propertyPath: m_LocalRotation.w
