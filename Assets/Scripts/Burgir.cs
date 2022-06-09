@@ -14,7 +14,7 @@ public class Burgir : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.y < 22.6f)
+        if (transform.position.y < 3.2f)
             burgir.SetActive(true);
         else
             burgir.SetActive(false);

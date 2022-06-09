@@ -3,12 +3,22 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Check
+  - Button
+  - Shape4D
+  - PortalNew
+  - PointA
+  - PointB
+  - Ennemy
+  - DestinationTP
+  - Door
+  - Portal
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
   - 
