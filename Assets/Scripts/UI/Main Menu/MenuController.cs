@@ -35,6 +35,7 @@ public class MenuController : MonoBehaviour
     public void VolumeApply()
     {
         PlayerPrefs.SetFloat("masterVolume", AudioListener.volume);
+        //SetVolume(PlayerPrefs.GetFloat("masterVolume"));
         //StartCoroutine(Confirmation());
     }
     
